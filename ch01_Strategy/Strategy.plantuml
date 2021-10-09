@@ -1,0 +1,63 @@
+@startuml Strategy Pattern
+package "客户"{
+class Duck
+{
+    - FlyBehavior flyBehavior
+    - QuackBehavior quackBehavior
+    --
+    + display()
+    + performFly()
+    + performQuack()
+    + setFlyBehavior()
+    + setQuackBehavior()
+    // 鸭子的其他行为...
+}
+
+
+
+class MallarDuck extends Duck{
+    +display()
+}
+class RedheadDuck extends Duck{
+    +display()
+}
+class RubberDuck extends Duck{
+    +display()
+}
+class DecoyDuck extends Duck{
+    +display()
+}
+}
+package "封装飞行行为" {
+Duck -->FlyBehavior
+interface FlyBehavior{
+    +fly()
+}
+
+
+class FlyWithWings implements FlyBehavior{
+    fly()
+}
+class FlyNoway implements FlyBehavior{
+    fly()
+}
+class FlynewWay implements FlyBehavior{
+    fly()
+}
+}
+
+package "封装呱呱叫行为"{
+Duck -->QuackBehavior
+
+interface QuackBehavior{
+    + quack()
+}
+class SimpleQuack implements QuackBehavior{
+    + quack() {// 实现SimpleQuack}
+}
+class Mute implements QuackBehavior{
+    + quack() {// do noting}
+}
+
+}
+@enduml
