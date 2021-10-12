@@ -2,47 +2,47 @@
 package "客户"{
 class Duck
 {
-    - FlyBehavior flyBehavior
-    - QuackBehavior quackBehavior
+    - FlyBehavior m_flyBehavior
+    - QuackBehavior m_quackBehavior
     --
-    + display()
-    + performFly()
-    + performQuack()
-    + setFlyBehavior()
-    + setQuackBehavior()
+    + void display()
+    + void performFly()
+    + void performQuack()
+    + void setFlyBehavior()
+    + void setQuackBehavior()
     // 鸭子的其他行为...
 }
 
 
 
 class MallarDuck extends Duck{
-    +display()
+    +void display()
 }
 class RedheadDuck extends Duck{
-    +display()
+    +void display()
 }
 class RubberDuck extends Duck{
-    +display()
+    +void display()
 }
 class DecoyDuck extends Duck{
-    +display()
+    +void display()
 }
 }
 package "封装飞行行为" {
 Duck -->FlyBehavior
 interface FlyBehavior{
-    +fly()
+    +void fly()
 }
 
 
 class FlyWithWings implements FlyBehavior{
-    fly()
+    void fly()
 }
 class FlyNoway implements FlyBehavior{
-    fly()
+    void fly()
 }
 class FlynewWay implements FlyBehavior{
-    fly()
+    void fly()
 }
 }
 
@@ -50,13 +50,13 @@ package "封装呱呱叫行为"{
 Duck -->QuackBehavior
 
 interface QuackBehavior{
-    + quack()
+    + void quack()
 }
 class SimpleQuack implements QuackBehavior{
-    + quack() {// 实现SimpleQuack}
+    + void quack() {// 实现SimpleQuack}
 }
 class Mute implements QuackBehavior{
-    + quack() {// do noting.}
+    + void quack() {// do noting.}
 }
 
 }
