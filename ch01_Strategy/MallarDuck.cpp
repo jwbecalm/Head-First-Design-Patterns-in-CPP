@@ -11,7 +11,7 @@ MallarDuck:: MallarDuck(){
     m_quackBehavior = new SimpleQuack();
 }
 
-// 带参数的构造函数，可以在创建对象时赋值新的行为
+// 带参数的构造函数，也可以在创建对象时赋值新的行为
 MallarDuck:: MallarDuck(FlyBehavior* fb, QuackBehavior* qb){
     cout << "in MallarDuck(FlyBehavior* fb, QuackBehavior* qb)" << endl;
     m_flyBehavior = fb;
@@ -20,7 +20,7 @@ MallarDuck:: MallarDuck(FlyBehavior* fb, QuackBehavior* qb){
 
 MallarDuck::~MallarDuck(){
     cout << "in ~MallarDuck()" << endl;
-    delete m_flyBehavior;
+    delete m_flyBehavior;   // TBD: 在main中delete MallarDuck对象后，是否会自动释放new出来的成员变量？
     delete m_quackBehavior;
 }
 

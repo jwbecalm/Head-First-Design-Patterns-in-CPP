@@ -10,10 +10,10 @@ Duck:: ~Duck(){
     cout << "in ~Duck()" << endl;
 }
 
-// 构造函数初始化列表（constructor initializer list）
-Duck::Duck(FlyBehavior* fb, QuackBehavior* qb): m_flyBehavior(fb), m_quackBehavior(qb) {
-    cout << "in Duck(FlyBehavior* fb, QuackBehavior* qb)" << endl;
-}
+// // constructor initializer list）
+// Duck::Duck(FlyBehavior* fb, QuackBehavior* qb): m_flyBehavior(fb), m_quackBehavior(qb) {
+//     cout << "in Duck(FlyBehavior* fb, QuackBehavior* qb)" << endl;
+// }
 
 void Duck::performFly(){
     m_flyBehavior->fly();

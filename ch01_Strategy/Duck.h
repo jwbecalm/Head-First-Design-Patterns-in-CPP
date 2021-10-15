@@ -6,14 +6,15 @@
 
 class Duck{
     public:
+    // 把鸭子的行为，委托给FlyBehavior， QuackBehavior
     FlyBehavior* m_flyBehavior;
     QuackBehavior* m_quackBehavior;
 
-    Duck();     //默认构造函数
-    Duck(FlyBehavior* fb, QuackBehavior* qb);   //入参为自定义的Behavior
-    virtual ~Duck();    //基类的析构函数定义为虚函数，确保析构时针对动态绑定的子类进行，避免内存泄漏
+    Duck();     //default constructor
+    //Duck(FlyBehavior* fb, QuackBehavior* qb);   //input parameter is used to create custom behavior
+    virtual ~Duck();    //base class deconstructor set to virtual, ensure the subclass binded at runtime can invoke it's deconstructor, avoid memory leak.
 
-    virtual void display() = 0; //每种鸭子的外观都不一样，需要子类自己实现
+    virtual void display() = 0; // each duck type has its own appearance, need subclass impl its own display method
     
     void performFly();
     void performQuack();
