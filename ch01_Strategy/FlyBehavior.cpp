@@ -1,4 +1,4 @@
-#include "DuckBehavior.h"
+#include "FlyBehavior.h"
 
 #include <iostream>
 using std::cout;
@@ -15,15 +15,4 @@ void FlyNoWay::fly(){
 // 新增的Fly behavior 实现，和已有代码解耦
 void NewFlyWay::fly(){
     cout << "Fly wiht new way." << endl;
-}
-
-// 实现类
-void SimpleQuack::quack(){
-    cout << "Quack with simple/normal way." << endl;
-}
-void MuteQuack::quack(){
-    cout << "Mute, can not quack, do nothing." << endl;
-}
-void NewQuack::quack(){
-    cout << "Quack with new way." << endl;
 }

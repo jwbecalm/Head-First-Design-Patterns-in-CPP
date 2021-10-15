@@ -1,13 +1,10 @@
-// 封装Fly和Quack两种行为，新增行为可以分别继承父类动态扩展
+#ifndef FLYBEHAVIOR_H
+#define FLYBEHAVIOR_H
+
 class FlyBehavior
 {
 public:
     virtual void fly() = 0;     //纯虚函数，子类必须自己实现
-};
-class QuackBehavior
-{
-public:
-    virtual void quack() = 0;   //纯虚函数，子类必须自己实现
 };
 
 // 实现类
@@ -28,20 +25,4 @@ public:
     void fly();
 };
 
-// 实现类
-class SimpleQuack: public QuackBehavior
-{
-public:
-    void quack();
-};
-class MuteQuack: public QuackBehavior
-{
-public:
-    void quack();  //do nothing
-};
-class NewQuack: public QuackBehavior
-{
-public:
-    void quack();
-};
-
+#endif // FLYBEHAVIOR_H
