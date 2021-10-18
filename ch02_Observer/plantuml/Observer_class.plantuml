@@ -1,0 +1,17 @@
+@startuml Observer Pattern
+
+Interface Subject{
+    + void registerObserver(Observer o)
+    + void removeObserver(Observer o)
+    + void notifyObserver()
+}
+
+Interface Observer{
+    + void update(temp, humidity,pressure)
+}
+
+class WeatherData implements  Subject{
+
+}
+Subject --> Observer
+@enduml
