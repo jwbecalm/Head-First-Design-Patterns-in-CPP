@@ -15,8 +15,10 @@ class Duck{
 
     virtual void display() = 0; // each duck type has its own appearance, need subclass impl its own display method
     
+    // 子类直接继承performFly()和performQuack()，无需virtual实现动态绑定
     void performFly();
     void performQuack();
+
     void setFlyBehavior(FlyBehavior* fb);
     void setQuackBehavior(QuackBehavior* qb);
 };

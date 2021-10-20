@@ -25,7 +25,7 @@ public:
 };
 
 // 客户如果想新增一个飞行行为，直接继承接口类，提供新的实现即可。
-class NewFlyWay: public FlyBehavior
+class FlyNewWay: public FlyBehavior
 {
 public:
     void fly();

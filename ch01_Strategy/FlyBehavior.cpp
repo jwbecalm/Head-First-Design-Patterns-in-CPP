@@ -18,6 +18,6 @@ void FlyWthRocket::fly(){
 
 // 新增的Fly behavior 实现，和已有代码解耦。
 // 这里为简化实现，放在了同一个.cpp, .h文件里
-void NewFlyWay::fly(){
-    cout << "Fly wiht new way." << endl;
+void FlyNewWay::fly(){
+    cout << "Fly with new way." << endl;
 }

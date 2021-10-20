@@ -20,8 +20,9 @@ note left of Duck::m_flyBehavior
 end note
 
 note left of Duck::performFly
-在perform方法中调用接口的fly(), quack()方法，
-通过多态在运行时调用对应子类的具体fly(),quack(）方法
+在perform方法中委托接口的fly(), quack()方法
+针对fly(),quack()接口编程，运行时动态绑定具体的实现类
+
 end note
 
 class MallarDuck extends Duck{

@@ -20,8 +20,8 @@ MallarDuck:: MallarDuck(FlyBehavior* fb, QuackBehavior* qb){
 
 MallarDuck::~MallarDuck(){
     cout << "in ~MallarDuck()" << endl;
-    delete m_flyBehavior;   // TBD: 在main中delete MallarDuck对象后，是否会自动释放new出来的成员变量？
-    delete m_quackBehavior;
+    // delete m_flyBehavior;   // TBD: 在main中delete MallarDuck对象后，是否会自动释放new出来的成员变量？
+    // delete m_quackBehavior;
 }
 
 void MallarDuck::display(){

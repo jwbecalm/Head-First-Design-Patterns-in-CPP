@@ -7,35 +7,33 @@ using std::endl;
 
 int main(){
     cout << "mallardDuck-------------------------" << endl;
-    Duck* mallardDuck = new MallarDuck();   //创建默认的MallarDuck, 在堆上创建对象
+    //create default MallarDuck on heap
+    MallarDuck* mallardDuck = new MallarDuck();   
     mallardDuck->display();
     mallardDuck->performFly();
     mallardDuck->performQuack();
-
     // change behavior in runtime
-    NewFlyWay newFlyWay = NewFlyWay();
-    mallardDuck->setFlyBehavior(&newFlyWay);
+    mallardDuck->setFlyBehavior(new FlyNewWay());
     mallardDuck->performFly();
 
-    cout << "rocketDuck-------------------" << endl;
-    FlyWthRocket flywthRocket = FlyWthRocket();   // 用自定义的行为创建MallarDuck， 在栈上创建对象
-    NewQuack newQuack = NewQuack();
-
-    Duck* rocketDuck = new MallarDuck(&flywthRocket, &newQuack);
-    rocketDuck->display();
-    rocketDuck->performFly();
-    rocketDuck->performQuack();
+    cout << "the other way to create MallarDuck-----------" << endl;
+    // create custom MallarDuck on stack.
+    MallarDuck rocketDuck =  MallarDuck(new FlyWthRocket(), new NewQuack());
+    rocketDuck.display();
+    rocketDuck.performFly();
+    rocketDuck.performQuack();
 
     cout << "rubberDuck duck--------------------" << endl;
-    Duck* rubberDuck = new RubberDuck();
-    rubberDuck->display();
-    rubberDuck->performFly();
-    rubberDuck->performQuack();
+    RubberDuck rubberDuck;
+    rubberDuck.display();
+    rubberDuck.performFly();
+    rubberDuck.performQuack();
     
         
-    delete mallardDuck;     // TBD: delete 对象的时候，是否会同步delete构造函数内，为成员new的存储空间？
-    delete rocketDuck;
-    delete rubberDuck;
+    delete mallardDuck;     // TBD: when delete object on the heap, 
+                            // will delete member object which also create by new operator
+                            // in constructor?
+    cout << "in main, before return 0" << endl;
 
     return 0;
 }
