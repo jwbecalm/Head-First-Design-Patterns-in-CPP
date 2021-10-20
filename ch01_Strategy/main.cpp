@@ -13,7 +13,8 @@ int main(){
     mallardDuck->performQuack();
 
     // change behavior in runtime
-    mallardDuck->setFlyBehavior(new NewFlyWay());
+    NewFlyWay newFlyWay = NewFlyWay();
+    mallardDuck->setFlyBehavior(&newFlyWay);
     mallardDuck->performFly();
 
     cout << "rocketDuck-------------------" << endl;

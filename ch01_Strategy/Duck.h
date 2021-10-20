@@ -11,7 +11,6 @@ class Duck{
     QuackBehavior* m_quackBehavior;
 
     Duck();     //default constructor
-    //Duck(FlyBehavior* fb, QuackBehavior* qb);   //input parameter is used to create custom behavior
     virtual ~Duck();    //base class deconstructor set to virtual, ensure the subclass binded at runtime can invoke it's deconstructor, avoid memory leak.
 
     virtual void display() = 0; // each duck type has its own appearance, need subclass impl its own display method
