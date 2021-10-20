@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 
 int main(){
-    cout << "mallardDuck-------------------------" << endl;
+    cout << "mallardDuck---------------------------------" << endl;
     //create default MallarDuck on heap
     MallarDuck* mallardDuck = new MallarDuck();   
     mallardDuck->display();
@@ -14,7 +14,9 @@ int main(){
     mallardDuck->performQuack();
     // change behavior in runtime
     mallardDuck->setFlyBehavior(new FlyNewWay());
+    cout <<"after setFlyBehavoir" << endl;
     mallardDuck->performFly();
+
 
     cout << "the other way to create MallarDuck-----------" << endl;
     // create custom MallarDuck on stack.
@@ -23,16 +25,16 @@ int main(){
     rocketDuck.performFly();
     rocketDuck.performQuack();
 
-    cout << "rubberDuck duck--------------------" << endl;
+    cout << "rubberDuck duck-----------------------------" << endl;
     RubberDuck rubberDuck;
     rubberDuck.display();
     rubberDuck.performFly();
     rubberDuck.performQuack();
     
         
-    delete mallardDuck;     // TBD: when delete object on the heap, 
-                            // will delete member object which also create by new operator
-                            // in constructor?
+    delete mallardDuck;     // when delete object on the heap, 
+                            // it will not delete member object which also create by new operator in constructor
+                            // need to delete explictly in deconstructor: ~MallarDuck(), ~RubberDuck().
     cout << "in main, before return 0" << endl;
 
     return 0;

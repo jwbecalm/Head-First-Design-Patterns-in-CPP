@@ -6,7 +6,7 @@ using std::endl;
 
 MallarDuck:: MallarDuck(){
     cout << "in MallarDuck:: MallarDuck()" << endl;
-    // 为MallarDuck 赋值其特有的行为
+    // 为MallarDuck 赋值默认的行为
     m_flyBehavior = new FlyWithWings();
     m_quackBehavior = new SimpleQuack();
 }
@@ -19,9 +19,9 @@ MallarDuck:: MallarDuck(FlyBehavior* fb, QuackBehavior* qb){
 }
 
 MallarDuck::~MallarDuck(){
-    cout << "in ~MallarDuck()" << endl;
-    // delete m_flyBehavior;   // TBD: 在main中delete MallarDuck对象后，是否会自动释放new出来的成员变量？
-    // delete m_quackBehavior;
+    cout << "in MallarDuck::~MallarDuck()" << endl;
+     delete m_flyBehavior;   
+     delete m_quackBehavior;
 }
 
 void MallarDuck::display(){

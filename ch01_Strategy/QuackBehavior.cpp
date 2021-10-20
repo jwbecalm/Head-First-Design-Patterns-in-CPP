@@ -6,11 +6,11 @@ using std::endl;
 
 // 实现类
 void SimpleQuack::quack(){
-    cout << "Quack with simple/normal way." << endl;
+    cout << "in SimpleQuack::quack(), Quack with simple/normal way." << endl;
 }
 void MuteQuack::quack(){
-    cout << "Mute, can not quack, do nothing." << endl;
+    cout << "in MuteQuack::quack(), Mute, can not quack, do nothing." << endl;
 }
 void NewQuack::quack(){
-    cout << "Quack with new way." << endl;
+    cout << "in NewQuack::quack(), Quack with new way." << endl;
 }

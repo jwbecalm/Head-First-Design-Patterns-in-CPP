@@ -4,10 +4,10 @@ using std::cout;
 using std::endl;
 
 Duck::Duck(){
-    cout << "in Duck()" << endl;
+    cout << "in Duck::Duck()" << endl;
 }
 Duck:: ~Duck(){
-    cout << "in ~Duck()" << endl;
+    cout << "in Duck::~Duck()" << endl;
 }
 
 // 把鸭子的飞行行为委托给接口FlyBehavior
@@ -21,11 +21,9 @@ void Duck::performQuack(){
 
 void Duck::setFlyBehavior(FlyBehavior* fb){
     m_flyBehavior = fb;
-    cout << "in Duck::setFlyBehavior()" <<endl;
 }
 
 void Duck::setQuackBehavior(QuackBehavior* qb)
 {
     m_quackBehavior = qb;
-    cout << "in Duck::setQuackBehavior()" <<endl;
 }

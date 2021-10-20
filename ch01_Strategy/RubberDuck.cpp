@@ -6,7 +6,7 @@ using std::endl;
 
 RubberDuck:: RubberDuck(){
     cout << "in RubberDuck:: RubberDuck()" << endl;
-    // RubberDuck 赋值其特有的行为
+    // RubberDuck 赋值默认的行为
     m_flyBehavior = new FlyNoWay();
     m_quackBehavior = new MuteQuack();
 }
@@ -19,7 +19,7 @@ RubberDuck:: RubberDuck(FlyBehavior* fb, QuackBehavior* qb){
 }
 
 RubberDuck::~RubberDuck(){
-    cout << "in ~RubberDuck()" << endl;
+    cout << "in RubberDuck::~RubberDuck()" << endl;
     delete m_flyBehavior;
     delete m_quackBehavior;
 }
