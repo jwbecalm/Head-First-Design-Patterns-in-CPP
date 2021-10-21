@@ -1,17 +1,79 @@
 @startuml Observer Pattern
 
-Interface Subject{
-    + void registerObserver(Observer o)
-    + void removeObserver(Observer o)
-    + void notifyObserver()
+Interface Observalble{
+    + virtual void addObserver(Observer o) = 0
+    + virtual void removeObserver(Observer o) = 0
+    + virtual void notifyObservers() = 0
 }
-
 Interface Observer{
-    + void update(temp, humidity,pressure)
+    + virutal void update() = 0
+}
+Interface DisplayElement{
+    + virtual void display() = 0
+    
 }
 
-class WeatherData implements  Subject{
-
+class WeatherData implements  Observalble{
+    ' store the weather data from weather station
+    - float m_temperature
+    - float m_humidity
+    - float m_pressure
+    ' store all the observers' pointer in vector for nothify when weather data changed
+    - std::list<Observer*>m_observers 
+    --
+    + void addObserver (Observer o)
+    + void removeObserver(Observer o) 
+    + void notifyObservers()
+    ..
+    ' when weather data changed, this method will be invoked
+    + void measurementChanged()
+    ' simulate weaher data changed
+    + setWeatherData(float temp, float humid, float pres)
+    ' get method for Observer use
+    + float getTemperature()
+    + float getHumidity()
+    + float getPressure()
+    ' new get method can be add for future requirement
+    ..
 }
-Subject --> Observer
+
+class CurrentDisplay implements Observer, DisplayElement{
+    - WeatherData* m_weatherData
+    + CurrentDisplay(WeatherData* weatherData)
+    + void update()
+    + void display()
+}
+
+class StatDisplay implements Observer, DisplayElement{
+    - WeatherData* m_weatherData
+    + StatDisplay(WeatherData* weatherData)
+    + void update()
+    + void display()
+}
+
+class ForecastDisplay implements Observer, DisplayElement{
+    - WeatherData* m_weatherData
+    + ForecastDisplay(WeatherData* weatherData)
+    + void update()
+    + void display()
+}
+class ThirdPartyDisplay implements Observer, DisplayElement{
+    - WeatherData* m_weatherData
+    + ThirdPartyDisplay(WeatherData* weatherData)
+    + void update()
+    + void display()
+}
+Observalble ..>"0..*" Observer
+'CurrentDisplay --> WeatherData
+'StatDisplay --> WeatherData
+'ForecastDisplay --> WeatherData
+'ThirdPartyDisplay --> WeatherData
+
+'Layout modify
+Observalble -[hidden]> Observer 
+Observer -[hidden]> DisplayElement
+
+CurrentDisplay -[hidden]> StatDisplay 
+StatDisplay -[hidden]> ForecastDisplay 
+ForecastDisplay -[hidden]> ThirdPartyDisplay 
 @enduml
