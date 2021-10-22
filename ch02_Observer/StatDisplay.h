@@ -6,8 +6,8 @@
 #include "WeatherData.h"
 class StatDisplay: public Observer, DisplayElement{
     private:
-    float m_humidity;
     WeatherData* m_weatherData;
+    
     public:
     StatDisplay(WeatherData* m_weatherData);
     void update();

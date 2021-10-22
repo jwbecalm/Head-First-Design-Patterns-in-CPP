@@ -15,6 +15,7 @@ class WeatherData : public Obserbalble{
 
     public:
     WeatherData();
+    ~WeatherData();
     
     void addObserver(Observer* observer);
     void removeObserver(Observer* observer);

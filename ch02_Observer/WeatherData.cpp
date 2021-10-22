@@ -11,7 +11,9 @@ WeatherData::WeatherData():
     // m_observers already initialized by its default constructor
     }
 
-
+WeatherData::~WeatherData(){
+    cout << "in WeatherData::~WeatherData()" << endl;
+}
 void WeatherData::addObserver(Observer* observer){
     m_observers.push_back(observer);
 }

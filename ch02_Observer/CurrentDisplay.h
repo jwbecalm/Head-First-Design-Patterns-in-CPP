@@ -7,7 +7,6 @@
 
 class CurrentDisplay : public Observer, DisplayElement{
     private:
-    float m_temperature;
     WeatherData* m_weatherData;
 
     public:
