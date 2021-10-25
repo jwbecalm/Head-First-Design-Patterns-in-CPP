@@ -1,0 +1,49 @@
+@startuml Decorator Pattern
+
+abstract Beverage{
+    # string m_description 
+    + Beverage(){m_description = "unknown"}
+    + virtual string getDescription() {return m_description}
+    + virtual double cost() = 0
+}
+
+Interface AddsOnDecorator{
+    + virtual string getDescription() = 0
+    + virtual double cost() = 0
+}
+
+
+Beverage <|-- AddsOnDecorator
+Beverage <-- AddsOnDecorator
+package "Concrete Component"{
+class Espresso {
+    + Espresso(){m_description = "Esresso"}
+    + double cost()
+}
+
+class Decaf {
+    + Decaf(){m_description = "Decaf"}
+    + double cost()
+}
+note "Inherit the getDescription()\n from Beverage" as N1
+
+}
+Beverage <|-- Espresso
+Beverage <|-- Decaf
+package "Concrete Decorator"{
+note "Each concrete decorator\n has a Beverage member to decorate(wrap)" as N2
+
+class MilkDecorator extends AddsOnDecorator{
+    - Beverage* m_beverage
+    + MilkDecorator(Beverage* beverage):m_beverage(beverage){}
+    + double cost()
+    + string getDescription()
+}
+class MochaDecorator extends AddsOnDecorator{
+    - Beverage* m_beverage
+    + MochaDecorator(Beverage* beverage):m_beverage(beverage){}
+    + double cost()
+    + string getDescription()
+}
+}
+@enduml
