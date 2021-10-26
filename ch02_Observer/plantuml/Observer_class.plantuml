@@ -5,6 +5,11 @@ Interface Observalble{
     + virtual void removeObserver(Observer o) = 0
     + virtual void notifyObservers() = 0
 }
+note left of Observalble::notifyObservers
+for observer in observers,
+call observer.update()
+end note
+
 Interface Observer{
     + virutal void update() = 0
 }
