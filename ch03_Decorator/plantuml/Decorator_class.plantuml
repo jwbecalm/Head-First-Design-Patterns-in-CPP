@@ -6,6 +6,7 @@ abstract Beverage{
     + virtual string getDescription() {return m_description}
     + virtual double cost() = 0
 }
+note "Decorators have the same supertype as the objects they decorate " as N3
 
 Interface AddsOnDecorator{
     + virtual string getDescription() = 0
