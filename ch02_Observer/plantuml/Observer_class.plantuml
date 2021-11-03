@@ -1,5 +1,5 @@
 @startuml Observer Pattern
-
+package "Observalble and Observer Interface" {
 Interface Observalble{
     + virtual void addObserver(Observer o) = 0
     + virtual void removeObserver(Observer o) = 0
@@ -13,10 +13,10 @@ end note
 Interface Observer{
     + virutal void update() = 0
 }
-Interface DisplayElement{
-    + virtual void display() = 0
-    
 }
+
+
+
 
 class WeatherData implements  Observalble{
     ' store the weather data from weather station
@@ -42,43 +42,55 @@ class WeatherData implements  Observalble{
     ..
 }
 
-class CurrentDisplay implements Observer, DisplayElement{
+
+package "Concreat Observer"{
+class CurrentDisplay implements Observer{
     - WeatherData* m_weatherData
     + CurrentDisplay(WeatherData* weatherData)
     + void update()
     + void display()
 }
 
-class StatDisplay implements Observer, DisplayElement{
+class StatDisplay implements Observer{
     - WeatherData* m_weatherData
     + StatDisplay(WeatherData* weatherData)
     + void update()
     + void display()
 }
+}
+' class ForecastDisplay implements Observer, DisplayElement{
+'     - WeatherData* m_weatherData
+'     + ForecastDisplay(WeatherData* weatherData)
+'     + void update()
+'     + void display()
+' }
+' class ThirdPartyDisplay implements Observer, DisplayElement{
+'     - WeatherData* m_weatherData
+'     + ThirdPartyDisplay(WeatherData* weatherData)
+'     + void update()
+'     + void display()
+' }
 
-class ForecastDisplay implements Observer, DisplayElement{
-    - WeatherData* m_weatherData
-    + ForecastDisplay(WeatherData* weatherData)
-    + void update()
-    + void display()
+Interface DisplayElement{
+    + virtual void display() = 0
+    
 }
-class ThirdPartyDisplay implements Observer, DisplayElement{
-    - WeatherData* m_weatherData
-    + ThirdPartyDisplay(WeatherData* weatherData)
-    + void update()
-    + void display()
-}
+
+
 Observalble ..>"0..*" Observer
-'CurrentDisplay --> WeatherData
-'StatDisplay --> WeatherData
+CurrentDisplay --> WeatherData
+StatDisplay --> WeatherData
 'ForecastDisplay --> WeatherData
 'ThirdPartyDisplay --> WeatherData
 
+DisplayElement <|.. CurrentDisplay
+DisplayElement <|.. StatDisplay
+
 'Layout modify
 Observalble -[hidden]> Observer 
-Observer -[hidden]> DisplayElement
 
+WeatherData -[hidden]> CurrentDisplay
 CurrentDisplay -[hidden]> StatDisplay 
-StatDisplay -[hidden]> ForecastDisplay 
-ForecastDisplay -[hidden]> ThirdPartyDisplay 
+
+
 @enduml

@@ -12,7 +12,7 @@ using std::endl;
 int main(){
     cout << "---------------------------" << endl;
    
-    // only Decaf, no addsOn
+    // only Decaf, no addsOn.   Note: Each component can be used on its own
     Beverage* decafOnly = new Decaf();
     cout << decafOnly->getDescription() << endl;
     cout << decafOnly->cost() << endl;
@@ -49,7 +49,7 @@ int main(){
     // delete milk_deco;
     // delete milk_deco2;
 
-    // Esresso + Mocha + Milk + Milk,  method 2. TODO: how to delete the memory for 
+    // Esresso + Mocha + Milk + Milk,  method 2------------------------------ TODO: how to delete the memory for each new()?
     Beverage* espresso2 = new MilkDecorator(new MilkDecorator(new MochaDecorator(new Espresso())));
     cout << espresso2->getDescription() << endl;
     cout << espresso2->cost() << endl;

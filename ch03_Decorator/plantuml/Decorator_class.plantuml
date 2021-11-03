@@ -6,7 +6,7 @@ abstract Beverage{
     + virtual string getDescription() {return m_description}
     + virtual double cost() = 0
 }
-note "Decorators have the same supertype as the objects they decorate " as N3
+note "Decorators have the same supertype as the objects they decorate\nSo both concreate decorator and component inherite from Beverage to have the same type." as N3
 
 Interface AddsOnDecorator{
     + virtual string getDescription() = 0
@@ -17,18 +17,25 @@ Interface AddsOnDecorator{
 Beverage <|-- AddsOnDecorator
 Beverage <-- AddsOnDecorator
 package "Concrete Component"{
-class Espresso {
+class Espresso  {
     + Espresso(){m_description = "Esresso"}
     + double cost()
 }
-
+note left of Espresso::cost()
+0.98
+end note
 class Decaf {
     + Decaf(){m_description = "Decaf"}
     + double cost()
 }
-note "Inherit the getDescription()\n from Beverage" as N1
-
+note left of Decaf::cost()
+1.99
+end note
+note "*Each component can be used on its own, or wrapped by a decorator\n*Reuse the member m_description\n*Inherit the getDescription()\n from Beverage" as N1
+Decaf .. N1
+Espresso .. N1
 }
+
 Beverage <|-- Espresso
 Beverage <|-- Decaf
 package "Concrete Decorator"{
@@ -40,11 +47,14 @@ class MilkDecorator extends AddsOnDecorator{
     + double cost()
     + string getDescription()
 }
+
 class MochaDecorator extends AddsOnDecorator{
     - Beverage* m_beverage
     + MochaDecorator(Beverage* beverage):m_beverage(beverage){}
     + double cost()
     + string getDescription()
 }
+
+
 }
 @enduml

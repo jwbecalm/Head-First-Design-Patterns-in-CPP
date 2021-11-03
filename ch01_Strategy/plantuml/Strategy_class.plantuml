@@ -1,36 +1,32 @@
 @startuml Strategy Pattern
 
-package "客户"{
+package "Client"{
 class Duck
 {
     - FlyBehavior* m_flyBehavior
     - QuackBehavior* m_quackBehavior
     --
-    + 
     + void display()
     + void performFly()
     + void performQuack()
     + void setFlyBehavior()
     + void setQuackBehavior()
-    // 鸭子的其他行为...
+    // other behavior of Duck...
 }
-note left of Duck::m_flyBehavior
-把Duck容易改变的行为封装到对应的Behavior接口中，
-委托对应的接口去完成不同的行为
-end note
+' note left of Duck::m_flyBehavior
+' 把Duck容易改变的行为封装到对应的Behavior接口中，
+' 委托对应的接口去完成不同的行为
+' end note
 
-note left of Duck::performFly
-在perform方法中委托接口的fly(), quack()方法
-针对fly(),quack()接口编程，运行时动态绑定具体的实现类
-
-end note
+' note left of Duck::performFly
+' 在perform方法中委托接口的fly(), quack()方法
+' 针对fly(),quack()接口编程，运行时动态绑定具体的实现类
+' end note
 
 class MallarDuck extends Duck{
     +void display()
 }
-class RedheadDuck extends Duck{
-    +void display()
-}
+
 class RubberDuck extends Duck{
     +void display()
 }
@@ -38,7 +34,7 @@ class DecoyDuck extends Duck{
     +void display()
 }
 }
-package "封装飞行行为" {
+package "Delegate flight behavior to <color:blue><Interface>FlyBehavoior" {
 Duck -->FlyBehavior: has
 interface FlyBehavior{
     + virtual void fly() = 0
@@ -56,20 +52,20 @@ class FlynewWay implements FlyBehavior{
 }
 }
 
-package "封装呱呱叫行为"{
+package "Delegate quack behavior to <color:blue><Interface>QuackBehavoior"{
 Duck -->QuackBehavior: has
 
 interface QuackBehavior{
     + virtual void quack() = 0
 }
 class SimpleQuack implements QuackBehavior{
-    + void quack() \n{// 实现SimpleQuack}
+    + void quack()
 }
 class Mute implements QuackBehavior{
-    + void quack() \n{// 实现Mute, do nothing.}
+    + void quack()
 }
 class NewQuack implements QuackBehavior{
-    + void quack() \n{// 新增的Quack行为.}
+    + void quack()
 }
 }
 @enduml
