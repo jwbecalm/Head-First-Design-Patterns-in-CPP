@@ -1,23 +1,23 @@
 @startuml Observer Pattern
 package "Observalble and Observer Interface" {
-Interface Observalble{
-    + virtual void addObserver(Observer o) = 0
-    + virtual void removeObserver(Observer o) = 0
-    + virtual void notifyObservers() = 0
+    Interface Observalble{
+        + virtual void addObserver(Observer o) = 0
+        + virtual void removeObserver(Observer o) = 0
+        + virtual void notifyObservers() = 0
+    }
+    note left of Observalble::notifyObservers
+    for observer in observers,
+    call observer.update()
+    end note
+
+    Interface Observer{
+        + virutal void update() = 0
+    }
 }
-note left of Observalble::notifyObservers
-for observer in observers,
-call observer.update()
-end note
-
-Interface Observer{
-    + virutal void update() = 0
-}
-}
 
 
 
-
+package "Concreat Observalble"{
 class WeatherData implements  Observalble{
     ' store the weather data from weather station
     - float m_temperature
@@ -41,22 +41,22 @@ class WeatherData implements  Observalble{
     ' new get method can be add for future requirement
     ..
 }
-
+}
 
 package "Concreat Observer"{
-class CurrentDisplay implements Observer{
-    - WeatherData* m_weatherData
-    + CurrentDisplay(WeatherData* weatherData)
-    + void update()
-    + void display()
-}
+    class CurrentDisplay implements Observer{
+        - WeatherData* m_weatherData
+        + CurrentDisplay(WeatherData* weatherData)
+        + void update()
+        + void display()
+    }
 
-class StatDisplay implements Observer{
-    - WeatherData* m_weatherData
-    + StatDisplay(WeatherData* weatherData)
-    + void update()
-    + void display()
-}
+    class StatDisplay implements Observer{
+        - WeatherData* m_weatherData
+        + StatDisplay(WeatherData* weatherData)
+        + void update()
+        + void display()
+    }
 }
 ' class ForecastDisplay implements Observer, DisplayElement{
 '     - WeatherData* m_weatherData

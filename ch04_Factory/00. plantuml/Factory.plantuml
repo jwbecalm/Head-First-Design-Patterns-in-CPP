@@ -1,13 +1,11 @@
 @startuml SimpleFactory
 
 namespace factory.simple_factory{
-PizzaStore --> SimplePizzaFactory: has
-SimplePizzaFactory ..> Pizza: depend on
 
 class PizzaStore{
     - SimplePizzaFactory* m_factory
     + PizzaStore(SimplePizzaFactory* factory)
-    + void orderPizza(<color:blue>string type)
+    + Pizza* orderPizza(<color:blue>string type)
 }
 
 class SimplePizzaFactory{
@@ -32,6 +30,11 @@ class VeggiePizza extends Pizza{
 'layout
 PizzaStore -[hidden]> SimplePizzaFactory
 SimplePizzaFactory -[hidden]> Pizza
+
+PizzaStore --> SimplePizzaFactory: associate(knows a)
+SimplePizzaFactory ..> Pizza: depends on(uses a )
+' PizzaStore --> Pizza: associate(knows a)
+' Association: One object is aware of another; it contains a pointer or reference to another object.
 }
 
 

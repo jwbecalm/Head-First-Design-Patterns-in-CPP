@@ -15,7 +15,11 @@ Interface AddsOnDecorator{
 
 
 Beverage <|-- AddsOnDecorator
+
+' Each concrete decorator\n has a Beverage member to decorate(wrap)
 Beverage <-- AddsOnDecorator
+
+
 package "Concrete Component"{
 class Espresso  {
     + Espresso(){m_description = "Esresso"}
