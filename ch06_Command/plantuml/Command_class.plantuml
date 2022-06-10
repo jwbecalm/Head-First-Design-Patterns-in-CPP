@@ -1,0 +1,54 @@
+@startuml Command Pattern
+
+
+class RemoteControl{
+    - Command[] m_onCommands
+    - Command[] m_offCommands
+    + void setCommand(int slot, Command onCommand, Command offCommand)
+}
+note top of RemoteControl: Invoker
+
+
+interface Command{
+    + virtual void execute() = 0
+    + virtual void undo() = 0
+}
+RemoteControl -> Command: has
+
+class Light{
+    + void on()
+    + void off()
+}
+note left: receiver
+
+package "concrete command"{
+' concrete command
+class LightOnCommand extends Command{
+    - Light* m_light
+    + void execute()
+    + void undo()
+}
+
+class LightOffCommand extends Command{
+    - Light* m_light
+    + void execute()
+    + void undo()
+}
+}
+class NoCommand extends Command{
+    + void execute()    // do nothing
+    + void undo()       // do nothing
+}
+
+note right of LightOffCommand::execute()
+    invoke receiver.action(); eg.on(),off()    
+end note
+
+Command -[hidden] Light
+Light -[hidden]-> RemoteControl
+
+LightOffCommand -> Light: has
+' LightOnCommand -> Light: has
+
+
+@enduml
