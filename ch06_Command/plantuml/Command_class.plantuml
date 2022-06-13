@@ -2,9 +2,13 @@
 
 
 class RemoteControl{
-    - Command[] m_onCommands
-    - Command[] m_offCommands
+    - Command*[] m_onCommands
+    - Command*[] m_offCommands
+    - Command* m_undoCommand 
     + void setCommand(int slot, Command onCommand, Command offCommand)
+    + void onButtonPressed(int slot)
+    + void OffButtonPressed(int slot)
+    + void undoButtonPressed()
 }
 note top of RemoteControl: Invoker
 
@@ -19,7 +23,13 @@ class Light{
     + void on()
     + void off()
 }
-note left: receiver
+
+class Stereo{
+    + void on();
+    + void playCD();
+    + void setVolume(int volume);
+    + void off();
+}
 
 package "concrete command"{
 ' concrete command
@@ -34,21 +44,37 @@ class LightOffCommand extends Command{
     + void execute()
     + void undo()
 }
-}
-class NoCommand extends Command{
-    + void execute()    // do nothing
-    + void undo()       // do nothing
-}
 
-note right of LightOffCommand::execute()
-    invoke receiver.action(); eg.on(),off()    
-end note
+class StereoOnCommand extends Command{
+    - Stereo* m_stereo
+    + void execute()
+    + void undo()
+}
+class StereoOffCommand extends Command{
+    - Stereo* m_stereo
+    + void execute()
+    + void undo()
+}
+}
+' class NoCommand extends Command{
+'     + void execute()    // do nothing
+'     + void undo()       // do nothing
+' }
+
+' note left of LightOffCommand::execute()
+'     invoke receiver.action(); eg.on(),off()    
+' end note
 
 Command -[hidden] Light
 Light -[hidden]-> RemoteControl
 
+LightOffCommand<-[hidden]-StereoOnCommand
+StereoOnCommand -[hidden] StereoOffCommand
+LightOnCommand -[hidden] LightOffCommand
+
 LightOffCommand -> Light: has
-' LightOnCommand -> Light: has
+StereoOnCommand -> Stereo: has
+Light <-[hidden] Stereo
 
 
 @enduml
