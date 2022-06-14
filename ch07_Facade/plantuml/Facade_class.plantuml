@@ -1,0 +1,25 @@
+@startuml Facade Pattern
+
+class Client{
+
+}
+class Facade{
+
+}
+Client -> Facade
+
+package "sub system, including lots of interface"{
+    class A
+    class B
+    class C
+    class D
+    
+    A - B
+    B - C
+    C - D
+    B - D
+    A -> Facade
+    B -> Facade
+}
+' https://github.com/jwbecalm/Head-First-Design-Patterns-CPP/tree/master/Facade
+@enduml
