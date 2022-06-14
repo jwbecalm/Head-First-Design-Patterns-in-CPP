@@ -33,30 +33,30 @@ class Stereo{
 
 package "concrete command"{
 ' concrete command
-class LightOnCommand extends Command{
+class LightOnCommand implements Command{
     - Light* m_light
     + void execute()
     + void undo()
 }
 
-class LightOffCommand extends Command{
+class LightOffCommand implements Command{
     - Light* m_light
     + void execute()
     + void undo()
 }
 
-class StereoOnCommand extends Command{
+class StereoOnCommand implements Command{
     - Stereo* m_stereo
     + void execute()
     + void undo()
 }
-class StereoOffCommand extends Command{
+class StereoOffCommand implements Command{
     - Stereo* m_stereo
     + void execute()
     + void undo()
 }
 }
-' class NoCommand extends Command{
+' class NoCommand implements Command{
 '     + void execute()    // do nothing
 '     + void undo()       // do nothing
 ' }
