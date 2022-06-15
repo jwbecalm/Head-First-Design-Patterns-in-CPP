@@ -1,0 +1,23 @@
+@startuml Template Pattern
+abstract class CaffeineBeverage{
+    + void prepareRecipe() final  // template method
+    + void boilWater()
+    + void pourInCup()
+    + <color:blue>virtual void brew()   
+    + <color:blue>virtual void addCondiments()  
+    + bool CustomerWantCondiments()   // hook method
+}
+' brew: brew sth, to make a hot drink of tea or coffee
+
+class Coffe extends CaffeineBeverage{
+    + <color:blue>void brew() override
+    + <color:blue>void addCondiments()  override
+    + CustomerWantCondiments() override
+}
+
+class Tea extends CaffeineBeverage{
+    + <color:blue>void brew()
+    + <color:blue>void addCondiments()
+}
+
+@enduml

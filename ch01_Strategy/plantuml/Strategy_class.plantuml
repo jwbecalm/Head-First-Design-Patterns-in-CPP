@@ -35,7 +35,7 @@ class DecoyDuck extends Duck{
 }
 }
 package "Delegate flight behavior to <color:blue><Interface>FlyBehavoior" {
-Duck -->FlyBehavior: has
+Duck -->FlyBehavior: knows(depend on)
 interface FlyBehavior{
     + virtual void fly() = 0
 }
@@ -53,7 +53,7 @@ class FlynewWay implements FlyBehavior{
 }
 
 package "Delegate quack behavior to <color:blue><Interface>QuackBehavoior"{
-Duck -->QuackBehavior: has
+Duck -->QuackBehavior: knows(depend on)
 
 interface QuackBehavior{
     + virtual void quack() = 0
