@@ -1,0 +1,24 @@
+@startuml Proxy Pattern
+
+
+class Client{
+    +Client(Subject& subject)
+}
+interface Subject{
+    +void request()
+}
+Client ..> Subject
+Client -[hidden] Subject
+
+class RealSubject implements Subject{
+    +void request()
+}
+
+class Proxy implements Subject{
+    -RealSubject* realSubject
+    +void request()
+}
+
+RealSubject <- Proxy
+
+@enduml
