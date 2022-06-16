@@ -1,5 +1,5 @@
 @startuml Facade Pattern
-
+' 使用单个外观类隔离多重依赖
 class Client{
 
 }
