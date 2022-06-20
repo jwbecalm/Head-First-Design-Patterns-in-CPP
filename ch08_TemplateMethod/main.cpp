@@ -10,7 +10,7 @@ int main(){
     Coffe coffe;
     coffe.prepareRecipe();
 
-    cout << "making Tee..." << endl;
+    cout << "\nmaking Tee..." << endl;
     Tea tea;
     tea.prepareRecipe();
 

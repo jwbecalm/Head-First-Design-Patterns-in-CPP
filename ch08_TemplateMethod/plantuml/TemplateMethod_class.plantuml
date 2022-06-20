@@ -5,19 +5,20 @@ abstract class CaffeineBeverage{
     + void pourInCup()
     + <color:blue>virtual void brew()   
     + <color:blue>virtual void addCondiments()  
-    + bool CustomerWantCondiments()   // hook method
+    + <color:blue>bool CustomerWantCondiments()   // hook method
 }
 ' brew: brew sth, to make a hot drink of tea or coffee
 
 class Coffe extends CaffeineBeverage{
-    + <color:blue>void brew() override
-    + <color:blue>void addCondiments()  override
-    + CustomerWantCondiments() override
+    + <color:blue>void brew() 
+    + <color:blue>void addCondiments()  
+    + <color:blue>CustomerWantCondiments() 
 }
 
 class Tea extends CaffeineBeverage{
-    + <color:blue>void brew()
-    + <color:blue>void addCondiments()
+    + <color:blue>void brew() 
+    + <color:blue>void addCondiments() 
+    + <color:blue>CustomerWantCondiments() 
 }
 
 @enduml

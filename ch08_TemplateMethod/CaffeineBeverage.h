@@ -3,12 +3,21 @@
 
 class CaffeineBeverage{
     public:
-    virtual void prepareRecipe() final; // template method, make sure that it cannot be overridden
+    // template method, make sure that it cannot be overridden
+    virtual void prepareRecipe() final; 
+
+    // general method, implement in parent class:CaffeineBeverage
     void boilWater();
+    // general method, implement in parent class:CaffeineBeverage
     void pourInCup();
+
+    // interface/specific method, subclass must implements by itself
     virtual void brew() = 0;
+    // interface/specific method, subclass must implements by itself
     virtual void addCondiments() = 0;
-    virtual bool CustomerWantCondiments();    // hook method, has default implementation
+
+    // hook method, has default implementation
+    virtual bool CustomerWantCondiments();
 };
 
 

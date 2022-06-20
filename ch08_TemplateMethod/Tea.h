@@ -5,8 +5,9 @@
 #include "CaffeineBeverage.h"
 
 class Tea : public CaffeineBeverage{
-    void brew();
-    void addCondiments();
+    void brew() override;
+    void addCondiments() override;
+    bool CustomerWantCondiments() override;
 };
 
 
