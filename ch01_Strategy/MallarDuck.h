@@ -8,7 +8,7 @@ class MallarDuck : public Duck{
     MallarDuck();
     ~MallarDuck();
     MallarDuck(FlyBehavior* fb, QuackBehavior* qb);
-    void display();
+    void display() override;
 };
 
 #endif // MALLARDUCK_H

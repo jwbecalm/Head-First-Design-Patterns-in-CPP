@@ -1,10 +1,11 @@
 #ifndef FLYBEHAVIOR_H
 #define FLYBEHAVIOR_H
 
+// 接口
 class FlyBehavior
 {
 public:
-    virtual void fly() = 0;     //纯虚函数，子类必须自己实现
+    virtual void fly() = 0;
 };
 
 // 实现类， 可以供不同的鸭子种类复用。但不用在每个鸭子类中重复代码
@@ -13,11 +14,13 @@ class FlyWithWings: public FlyBehavior
 public:
     void fly();
 };
+
 class FlyNoWay: public FlyBehavior
 {
 public:
     void fly(); //do nothing
 };
+
 class FlyWthRocket: public FlyBehavior
 {
 public:

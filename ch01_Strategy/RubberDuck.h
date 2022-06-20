@@ -9,7 +9,7 @@ class RubberDuck : public Duck{
     RubberDuck();
     ~RubberDuck();
     RubberDuck(FlyBehavior* fb, QuackBehavior* qb);
-    void display();
+    void display() override;
 };
 
 #endif // RUBBERDUCK_H

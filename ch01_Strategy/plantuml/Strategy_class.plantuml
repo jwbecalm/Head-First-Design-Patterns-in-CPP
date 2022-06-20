@@ -1,27 +1,32 @@
 @startuml Strategy Pattern
 
 package "Client"{
-class Duck
+Abstract class Duck
 {
     - FlyBehavior* m_flyBehavior
     - QuackBehavior* m_quackBehavior
     --
-    + void display()
+    + virtual void display() = 0
     + void performFly()
     + void performQuack()
     + void setFlyBehavior()
     + void setQuackBehavior()
     // other behavior of Duck...
 }
-' note left of Duck::m_flyBehavior
-' 把Duck容易改变的行为封装到对应的Behavior接口中，
-' 委托对应的接口去完成不同的行为
-' end note
+note left of Duck::m_flyBehavior
+把Duck容易改变的行为封装到对应的Behavior接口中，
+委托对应的接口去完成不同的行为
+end note
 
-' note left of Duck::performFly
-' 在perform方法中委托接口的fly(), quack()方法
-' 针对fly(),quack()接口编程，运行时动态绑定具体的实现类
-' end note
+note left of Duck::performFly
+m_flyBehavior->fly();  
+针对接口编程，运行时动态绑定具体的实现类
+end note
+
+note left of Duck::performQuack
+m_QuackBehavior->quack();  
+针对接口编程，运行时动态绑定具体的实现类
+end note
 
 class MallarDuck extends Duck{
     +void display()
