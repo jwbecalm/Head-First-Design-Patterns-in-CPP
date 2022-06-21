@@ -10,3 +10,7 @@ CheesePizza::CheesePizza(){
 CheesePizza::~CheesePizza(){
     cout << "in ~CheesePizza()" << endl;
 }
+
+void CheesePizza:: prepare(){
+    cout << "CheesePizza:: void prepare()" << endl;
+}

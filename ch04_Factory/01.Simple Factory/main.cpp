@@ -11,10 +11,9 @@ int main(){
     PizzaStore pizzaStore(&simplePizzaFactory);
 
     Pizza* pizzaCheese = pizzaStore.orderPizza("cheese");
-    
+
     Pizza* pizzaVeggie = pizzaStore.orderPizza("veggie");
-    
-    
+
     delete pizzaCheese;
     delete pizzaVeggie;
 

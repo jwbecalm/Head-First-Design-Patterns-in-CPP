@@ -9,3 +9,7 @@ VeggiePizza::VeggiePizza(){
 VeggiePizza::~VeggiePizza(){
     cout << "in ~VeggiePizza()" << endl;
 }
+
+void VeggiePizza:: box(){
+    cout << "VeggiePizza:: void box()" << endl;
+}

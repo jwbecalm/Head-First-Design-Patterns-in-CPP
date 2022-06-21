@@ -12,19 +12,19 @@ class SimplePizzaFactory{
     + Pizza* createPizza(<color:blue>string type)
 }
 
-class Pizza{
+abstract class Pizza{
     # string m_name
     + string getName()
-    + void prepare()
-    + void bake()
-    + void cut()
-    + void box()
+    + virtual void prepare()
+    + virtual void bake()
+    + virtual void cut()
+    + virtual void box()
 }
 class CheesePizza extends Pizza{
-
+    + void prepare()
 }
 class VeggiePizza extends Pizza{
-
+    + void box()
 }
 
 'layout

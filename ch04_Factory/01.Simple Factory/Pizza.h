@@ -12,10 +12,10 @@ class Pizza {
     Pizza();
     virtual ~Pizza();
     string getName();
-    void prepare();
-    void bake();
-    void cut();
-    void box();
+    virtual void prepare();
+    virtual void bake();
+    virtual void cut();
+    virtual void box();
 };
 
 #endif

@@ -7,6 +7,8 @@ class VeggiePizza : public Pizza {
     public:
     VeggiePizza();
     ~VeggiePizza();
+    //provide specific prepare()
+    void box() override;
 };
 
 #endif

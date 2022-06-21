@@ -4,10 +4,10 @@ using namespace std;
 
 PizzaStore::PizzaStore(SimplePizzaFactory* factory){
     m_factory = factory;
-    cout << "in PizzaStore(SimplePizzaFactory* factory)" << endl;
+    cout << "in PizzaStore(SimplePizzaFactory* factory)" << endl << endl;
 }
 PizzaStore::PizzaStore(){
-    cout << "in PizzaStore()" << endl;
+    cout << "in PizzaStore()" << endl << endl;
 }
 PizzaStore::~PizzaStore(){
     cout << "in ~PizzaStore()" << endl;
@@ -24,6 +24,7 @@ Pizza* PizzaStore::orderPizza(string type){
     pizza->bake();
     pizza->cut();
     pizza->box();
+    cout << endl;
 
     return pizza;
 }

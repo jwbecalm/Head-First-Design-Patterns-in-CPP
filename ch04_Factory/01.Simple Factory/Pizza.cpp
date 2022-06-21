@@ -11,21 +11,21 @@ Pizza::Pizza(){
     cout << "in Pizza(). m_name = " << m_name << endl;
 }
 Pizza::~Pizza(){
-    cout << "in ~Pizza()." << endl;
+    cout << "in ~Pizza()" << endl << endl;
 }
 string Pizza::getName(){
     return m_name;
 }
 void Pizza::prepare(){
-    cout << getName() << ", prepare()" << endl;
+    cout << "Pizza::prepare(): " << getName() << ", prepare()" << endl;
 }
 
 void Pizza::bake(){
-    cout << getName() << ", bake()" << endl;
+    cout << "Pizza::bake(): " << getName() << ", bake()" << endl;
 }
 void Pizza::cut(){
-    cout << getName() << ", cut()" << endl;
+    cout << "Pizza::cut(): " << getName() << ", cut()" << endl;
 }
 void Pizza::box(){
-    cout << getName() << ", box()" << endl;
+    cout << "Pizza::box(): " << getName() << ", box()" << endl;
 }

@@ -6,7 +6,8 @@ using std::cout;
 using std::endl;
 
 SimplePizzaFactory::SimplePizzaFactory(){
-    cout << "in SimplePizzaFactory()" << endl;
+    cout << "in SimplePizzaFactory()" << endl << endl;
+
 }
 
 SimplePizzaFactory::~SimplePizzaFactory(){
