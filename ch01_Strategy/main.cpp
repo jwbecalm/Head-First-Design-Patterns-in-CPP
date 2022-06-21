@@ -35,7 +35,7 @@ int main(){
     delete mallardDuck;     // when delete object on the heap, 
                             // it will not delete member object which also create by new operator in constructor
                             // need to delete explictly in deconstructor: ~MallarDuck(), ~RubberDuck().
-    cout << "\nin main, before return 0" << endl;
+    cout << "\nin main, before return 0: the object created on stack will be deConstructed" << endl;
 
     return 0;
 }
