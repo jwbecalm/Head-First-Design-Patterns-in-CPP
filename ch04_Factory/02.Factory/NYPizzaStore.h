@@ -9,7 +9,7 @@ using std::string;
 
 class NYPizzaStore: public PizzaStore{
     public:
-    Pizza* createPizza(string type);
+    Pizza* createPizza(string type) override;
 };
 
 #endif

@@ -43,11 +43,11 @@ namespace factory.factory{
         # virtual Pizza* createPizza(string type) = 0
         + Pizza* orderPizza(string type)
     }
-    note left of PizzaStore::orderPizza
-    orderPizza() is defined in the abstract PizzaStore, 
-    not the subclasses. So, the method has no idea 
-    which subclass is actually running the code and making the pizzas
-    end note
+    ' note left of PizzaStore::orderPizza
+    ' orderPizza() is defined in the abstract PizzaStore, 
+    ' not the subclasses. So, the method has no idea 
+    ' which subclass is actually running the code and making the pizzas
+    ' end note
 
     class NYPizzaStore extends PizzaStore{
         + Pizza* createPizza(string type)
@@ -69,7 +69,7 @@ namespace factory.factory{
 
     }
     abstract Pizza 
-    note left: *normal procedure to order a pizza\n*custom procedure can be override in the subclass
+    ' note left: *normal procedure to order a pizza\n*custom procedure can be override in the subclass
 
     class NYStyleCheesePizza extends Pizza{
         + void prepare()
@@ -84,12 +84,16 @@ namespace factory.factory{
         + void box()
     }
 
-    NYPizzaStore ..> Pizza: depends on
-    ChicagoPizzaStore ..> Pizza: depends on
+    ' NYPizzaStore ..> Pizza: depends on
+    ' ChicagoPizzaStore ..> Pizza: depends on
+
+    PizzaStore ..> Pizza: depends on
 
     'layout
-    Pizza -[hidden]> PizzaStore
+    PizzaStore -[hidden]> Pizza
     ChicagoStyleVeggiePizza -[hidden]> NYPizzaStore
+
+
 }
 
 @enduml

@@ -8,7 +8,7 @@ using std::string;
 
 class ChicagoPizzaStore : public PizzaStore{
     public:
-    Pizza* createPizza(string type);
+    Pizza* createPizza(string type) override;
 
 };
 
