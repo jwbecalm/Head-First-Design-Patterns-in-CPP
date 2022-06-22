@@ -8,6 +8,7 @@ using namespace  std;
 int main(){
     Adaptee* adaptee = new Adaptee();
     Target* target = new Adapter(adaptee);  // Before constructing a derived class, a constructor of the base class is called
+    // 1. 客户通过目标接口，调用适配器的request方法，对适配器发出请求
     target->request();
 
     delete adaptee;

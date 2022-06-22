@@ -10,6 +10,7 @@ interface Target{
 client -> Target
 
 class Adapter implements Target{
+    - Adaptee* m_adptee
     + void request()
 }
 
