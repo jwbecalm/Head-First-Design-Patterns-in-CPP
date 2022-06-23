@@ -23,7 +23,7 @@ class WeatherData implements  Observalble{
     - float m_temperature
     - float m_humidity
     - float m_pressure
-    ' store all the observers' pointer in vector for nothify when weather data changed
+    ' store all the observers' pointer in list for nothify when weather data changed
     - std::list<Observer*>m_observers 
     --
     + void addObserver (Observer o)
@@ -77,7 +77,7 @@ Interface DisplayElement{
 }
 
 
-Observalble ..>"0..*" Observer
+Observalble -->"0..*" Observer
 CurrentDisplay --> WeatherData
 StatDisplay --> WeatherData
 'ForecastDisplay --> WeatherData

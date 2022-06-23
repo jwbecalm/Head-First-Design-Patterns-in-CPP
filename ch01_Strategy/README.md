@@ -1,5 +1,5 @@
 # Strategy Pattern
-策略模式：封装容易改变的行为（算法）。
+策略模式：封装容易改变的行为（算法）。支持动态更换算法
 
 针对接口编程， Duck--FlyBehavior, Duck--QuackBehavior。
 

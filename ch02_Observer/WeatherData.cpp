@@ -28,13 +28,12 @@ void WeatherData::notifyObservers(){
     }
 }
 
-// interface provided by Weather Station, when weather data changed, this method will be called
+
 void WeatherData::measurementChanged(){
     // when weather data changed, notify all observers
     notifyObservers();
 }
 
-// simulate weaher data changed
 void WeatherData::setWeatherData(float temp, float humid, float pres){
     m_temperature = temp;
     m_humidity = humid;

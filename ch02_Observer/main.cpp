@@ -23,6 +23,7 @@ int main(){
 
     // create object on stack
     WeatherData weatherData;
+    
     CurrentDisplay cd = CurrentDisplay(&weatherData);
     StatDisplay sd = StatDisplay(&weatherData);
     ForecastDisplay fd = ForecastDisplay(&weatherData);
