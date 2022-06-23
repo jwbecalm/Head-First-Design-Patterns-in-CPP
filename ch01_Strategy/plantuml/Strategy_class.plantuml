@@ -14,18 +14,22 @@ Abstract class Duck
     // other behavior of Duck...
 }
 note left of Duck::m_flyBehavior
-把Duck容易改变的行为封装到对应的Behavior接口中，
-委托对应的接口去完成不同的行为
+把Duck容易改变的行为<color:blue>封装</color>到对应的Behavior接口中，
 end note
 
 note left of Duck::performFly
-m_flyBehavior->fly();  
-针对接口编程，运行时动态绑定具体的实现类
+{   
+    // <color:blue>委托</color>对应的接口去完成不同的行为
+    m_flyBehavior->fly();  
+}
+
 end note
 
 note left of Duck::performQuack
-m_QuackBehavior->quack();  
-针对接口编程，运行时动态绑定具体的实现类
+{   
+    // <color:blue>委托</color>对应的接口去完成不同的行为
+    m_QuackBehavior->quack();  
+}
 end note
 
 class MallarDuck extends Duck{
@@ -35,12 +39,12 @@ class MallarDuck extends Duck{
 class RubberDuck extends Duck{
     +void display()
 }
-class DecoyDuck extends Duck{
-    +void display()
+
 }
-}
-package "Delegate flight behavior to <color:blue><Interface>FlyBehavoior" {
-Duck -->FlyBehavior: knows(depend on)
+
+package "Encapsulate Fly Behavior"{
+Duck -->FlyBehavior: has a
+
 interface FlyBehavior{
     + virtual void fly() = 0
 }
@@ -57,8 +61,8 @@ class FlynewWay implements FlyBehavior{
 }
 }
 
-package "Delegate quack behavior to <color:blue><Interface>QuackBehavoior"{
-Duck -->QuackBehavior: knows(depend on)
+package "Encapsulate Quack Behavior"{
+Duck -->QuackBehavior: has a
 
 interface QuackBehavior{
     + virtual void quack() = 0

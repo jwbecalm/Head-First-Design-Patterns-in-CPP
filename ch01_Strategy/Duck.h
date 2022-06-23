@@ -6,9 +6,9 @@
 
 class Duck{
     public:
-    // 封装可在运行时可更换的行为/算法：成员包含Behavior接口的指针
+    // 封装可以在运行时动态更换的行为/算法，委托给对应的接口去完成
     FlyBehavior* m_flyBehavior;
-    // 封装可在运行时可更换的行为/算法：成员包含Behavior接口的指针
+    // 封装可以在运行时动态更换的行为/算法，委托给对应的接口去完成
     QuackBehavior* m_quackBehavior;
 
 
