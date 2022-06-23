@@ -35,24 +35,23 @@ class Decaf {
 note left of Decaf::cost()
 1.99
 end note
-note "*Each component can be used on its own, or wrapped by a decorator\n*Reuse the member m_description\n*Inherit the getDescription()\n from Beverage" as N1
+note "*Each component can be used on its own, or wrapped by a decorator\n*Reuse the member m_description\n*Inherit the getDescription() from Beverage" as N1
 Decaf .. N1
 Espresso .. N1
 }
 
 Beverage <|-- Espresso
 Beverage <|-- Decaf
-package "Concrete Decorator"{
-note "Each concrete decorator\n has a Beverage member to decorate(wrap)" as N2
+package "Concrete Decorator: each has a Beverage member to decorate(wrap)"{
 
-class MilkDecorator extends AddsOnDecorator{
+class MilkDecorator implements AddsOnDecorator{
     - Beverage* m_beverage
     + MilkDecorator(Beverage* beverage):m_beverage(beverage){}
     + double cost()
     + string getDescription()
 }
 
-class MochaDecorator extends AddsOnDecorator{
+class MochaDecorator implements AddsOnDecorator{
     - Beverage* m_beverage
     + MochaDecorator(Beverage* beverage):m_beverage(beverage){}
     + double cost()
