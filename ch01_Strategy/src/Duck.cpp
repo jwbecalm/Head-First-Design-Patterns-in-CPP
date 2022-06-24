@@ -1,4 +1,4 @@
-#include "../inc/Duck.h"
+#include "Duck.h"
 #include <iostream>
 using std::cout;
 using std::endl;

@@ -1,4 +1,4 @@
-#include "../inc/FlyBehavior.h"
+#include "FlyBehavior.h"
 
 #include <iostream>
 using std::cout;

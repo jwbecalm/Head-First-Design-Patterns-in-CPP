@@ -1,4 +1,4 @@
-#include "../inc/QuackBehavior.h"
+#include "QuackBehavior.h"
 
 #include <iostream>
 using std::cout;
