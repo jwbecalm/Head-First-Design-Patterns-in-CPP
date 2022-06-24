@@ -1,6 +1,6 @@
-#include "SimplePizzaFactory.h"
-#include "CheesePizza.h"
-#include "VeggiePizza.h"
+#include "../inc/SimplePizzaFactory.h"
+#include "../inc/CheesePizza.h"
+#include "../inc/VeggiePizza.h"
 #include <iostream>
 using std::cout;
 using std::endl;

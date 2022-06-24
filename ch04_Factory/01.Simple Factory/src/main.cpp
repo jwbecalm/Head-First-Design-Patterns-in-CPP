@@ -1,5 +1,5 @@
-#include "PizzaStore.h"
-#include "SimplePizzaFactory.h"
+#include "../inc/PizzaStore.h"
+#include "../inc/SimplePizzaFactory.h"
 #include <iostream>
 #include <string>
 using namespace std;
