@@ -7,6 +7,10 @@ Beverage::Beverage(){
     m_description = "unknown";
 }
 
+Beverage::~Beverage(){
+    cout << "Beverage::~Beverage(), m_description = " << this->getDescription() << endl;
+}
+
 string Beverage::getDescription(){
     return m_description;
 }

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="432px" preserveAspectRatio="none" style="width:1276px;height:432px;background:#FFFFFF;" version="1.1" viewBox="0 0 1276 432" width="1276px" zoomAndPan="magnify"><defs><filter height="300%" id="f1wd2i903uqgk5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[af7106bd922f59882c3ed90c4ed24113]
+cluster Concrete Component--><polygon fill="#FFFFFF" filter="url(#f1wd2i903uqgk5)" points="16,134,172,134,179,157.6094,486,157.6094,486,403,16,403,16,134" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="179" y1="157.6094" y2="157.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="20" y="150.5332">Concrete Component</text><!--MD5=[ec9907dae9c2cc3472dc3226e3c5e54c]
+cluster Concrete Decorator: each has a Beverage member to decorate(wrap)--><polygon fill="#FFFFFF" filter="url(#f1wd2i903uqgk5)" points="510,270,1001,270,1008,293.6094,1011,293.6094,1011,425,510,425,510,270" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="510" x2="1008" y1="293.6094" y2="293.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="485" x="514" y="286.5332">Concrete Decorator: each has a Beverage member to decorate(wrap)</text><!--MD5=[f5ea9ff06fc8109cace2c9440d07df67]
+class Espresso--><rect codeLine="23" fill="#FEFECE" filter="url(#f1wd2i903uqgk5)" height="75.6719" id="Espresso" style="stroke:#A80036;stroke-width:1.5;" width="215" x="254.5" y="170"/><ellipse cx="330.75" cy="186" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M333.5156,181.875 Q333.6719,181.6563 333.8594,181.5469 Q334.0469,181.4375 334.2656,181.4375 Q334.6406,181.4375 334.875,181.6953 Q335.1094,181.9531 335.1094,182.5625 L335.1094,184.0156 Q335.1094,184.625 334.875,184.8906 Q334.6406,185.1563 334.2656,185.1563 Q333.9219,185.1563 333.7188,184.9531 Q333.5156,184.7656 333.4063,184.25 Q333.3594,183.8906 333.1719,183.7031 Q332.8438,183.3281 332.2344,183.1094 Q331.625,182.8906 331,182.8906 Q330.2344,182.8906 329.6016,183.2188 Q328.9688,183.5469 328.4766,184.2969 Q327.9844,185.0469 327.9844,186.0781 L327.9844,187.1719 Q327.9844,188.4063 328.875,189.2266 Q329.7656,190.0469 331.3594,190.0469 Q332.2969,190.0469 332.9531,189.7969 Q333.3438,189.6406 333.7656,189.2031 Q334.0313,188.9375 334.1797,188.8594 Q334.3281,188.7813 334.5313,188.7813 Q334.8594,188.7813 335.1172,189.0391 Q335.375,189.2969 335.375,189.6406 Q335.375,189.9844 335.0313,190.3906 Q334.5313,190.9688 333.7344,191.2969 Q332.6563,191.75 331.3594,191.75 Q329.8438,191.75 328.6406,191.125 Q327.6563,190.625 326.9688,189.5547 Q326.2813,188.4844 326.2813,187.2031 L326.2813,186.0469 Q326.2813,184.7188 326.8984,183.5703 Q327.5156,182.4219 328.6094,181.8047 Q329.7031,181.1875 330.9375,181.1875 Q331.6719,181.1875 332.3203,181.3516 Q332.9688,181.5156 333.5156,181.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="351.25" y="190.9102">Espresso</text><line style="stroke:#A80036;stroke-width:1.5;" x1="255.5" x2="468.5" y1="202" y2="202"/><line style="stroke:#A80036;stroke-width:1.5;" x1="255.5" x2="468.5" y1="210" y2="210"/><ellipse cx="265.5" cy="221" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189" x="274.5" y="225.4189">Espresso(){m_description = "Esresso"}</text><ellipse cx="265.5" cy="234.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="274.5" y="239.2549">double cost()</text><!--MD5=[4188fab1d5603701389174163c352652]
+class Decaf--><rect codeLine="28" fill="#FEFECE" filter="url(#f1wd2i903uqgk5)" height="75.6719" id="Decaf" style="stroke:#A80036;stroke-width:1.5;" width="187" x="32.5" y="170"/><ellipse cx="105.75" cy="186" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M108.5156,181.875 Q108.6719,181.6563 108.8594,181.5469 Q109.0469,181.4375 109.2656,181.4375 Q109.6406,181.4375 109.875,181.6953 Q110.1094,181.9531 110.1094,182.5625 L110.1094,184.0156 Q110.1094,184.625 109.875,184.8906 Q109.6406,185.1563 109.2656,185.1563 Q108.9219,185.1563 108.7188,184.9531 Q108.5156,184.7656 108.4063,184.25 Q108.3594,183.8906 108.1719,183.7031 Q107.8438,183.3281 107.2344,183.1094 Q106.625,182.8906 106,182.8906 Q105.2344,182.8906 104.6016,183.2188 Q103.9688,183.5469 103.4766,184.2969 Q102.9844,185.0469 102.9844,186.0781 L102.9844,187.1719 Q102.9844,188.4063 103.875,189.2266 Q104.7656,190.0469 106.3594,190.0469 Q107.2969,190.0469 107.9531,189.7969 Q108.3438,189.6406 108.7656,189.2031 Q109.0313,188.9375 109.1797,188.8594 Q109.3281,188.7813 109.5313,188.7813 Q109.8594,188.7813 110.1172,189.0391 Q110.375,189.2969 110.375,189.6406 Q110.375,189.9844 110.0313,190.3906 Q109.5313,190.9688 108.7344,191.2969 Q107.6563,191.75 106.3594,191.75 Q104.8438,191.75 103.6406,191.125 Q102.6563,190.625 101.9688,189.5547 Q101.2813,188.4844 101.2813,187.2031 L101.2813,186.0469 Q101.2813,184.7188 101.8984,183.5703 Q102.5156,182.4219 103.6094,181.8047 Q104.7031,181.1875 105.9375,181.1875 Q106.6719,181.1875 107.3203,181.3516 Q107.9688,181.5156 108.5156,181.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="126.25" y="190.9102">Decaf</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="218.5" y1="202" y2="202"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="218.5" y1="210" y2="210"/><ellipse cx="43.5" cy="221" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="52.5" y="225.4189">Decaf(){m_description = "Decaf"}</text><ellipse cx="43.5" cy="234.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="52.5" y="239.2549">double cost()</text><path d="M37,328 L37,387.0547 L465,387.0547 L465,338 L455,328 L37,328 " fill="#FBFB77" filter="url(#f1wd2i903uqgk5)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M455,328 L455,338 L465,338 L455,328 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="48.5" cy="341.8516" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="394" x="56" y="346.4951">Each component can be used on its own, or wrapped by a decorator</text><ellipse cx="48.5" cy="358.2031" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="56" y="362.8467">Reuse the member m_description</text><ellipse cx="48.5" cy="374.5547" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="56" y="379.1982">Inherit the getDescription() from Beverage</text><!--MD5=[7387b668b8ac8cc66212986de150ecdb]
+class MilkDecorator--><rect codeLine="42" fill="#FEFECE" filter="url(#f1wd2i903uqgk5)" height="103.3438" id="MilkDecorator" style="stroke:#A80036;stroke-width:1.5;" width="199" x="775.5" y="306"/><ellipse cx="833.25" cy="322" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M836.0156,317.875 Q836.1719,317.6563 836.3594,317.5469 Q836.5469,317.4375 836.7656,317.4375 Q837.1406,317.4375 837.375,317.6953 Q837.6094,317.9531 837.6094,318.5625 L837.6094,320.0156 Q837.6094,320.625 837.375,320.8906 Q837.1406,321.1563 836.7656,321.1563 Q836.4219,321.1563 836.2188,320.9531 Q836.0156,320.7656 835.9063,320.25 Q835.8594,319.8906 835.6719,319.7031 Q835.3438,319.3281 834.7344,319.1094 Q834.125,318.8906 833.5,318.8906 Q832.7344,318.8906 832.1016,319.2188 Q831.4688,319.5469 830.9766,320.2969 Q830.4844,321.0469 830.4844,322.0781 L830.4844,323.1719 Q830.4844,324.4063 831.375,325.2266 Q832.2656,326.0469 833.8594,326.0469 Q834.7969,326.0469 835.4531,325.7969 Q835.8438,325.6406 836.2656,325.2031 Q836.5313,324.9375 836.6797,324.8594 Q836.8281,324.7813 837.0313,324.7813 Q837.3594,324.7813 837.6172,325.0391 Q837.875,325.2969 837.875,325.6406 Q837.875,325.9844 837.5313,326.3906 Q837.0313,326.9688 836.2344,327.2969 Q835.1563,327.75 833.8594,327.75 Q832.3438,327.75 831.1406,327.125 Q830.1563,326.625 829.4688,325.5547 Q828.7813,324.4844 828.7813,323.2031 L828.7813,322.0469 Q828.7813,320.7188 829.3984,319.5703 Q830.0156,318.4219 831.1094,317.8047 Q832.2031,317.1875 833.4375,317.1875 Q834.1719,317.1875 834.8203,317.3516 Q835.4688,317.5156 836.0156,317.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="853.75" y="326.9102">MilkDecorator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="776.5" x2="973.5" y1="338" y2="338"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="783.5" y="346"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="795.5" y="353.4189">Beverage* m_beverage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="776.5" x2="973.5" y1="359.8359" y2="359.8359"/><ellipse cx="786.5" cy="370.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="795.5" y="375.2549">MilkDecorator(Beverage* beverage)</text><ellipse cx="786.5" cy="384.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="795.5" y="389.0908">double cost()</text><ellipse cx="786.5" cy="398.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="795.5" y="402.9268">string getDescription()</text><!--MD5=[aa79d5672cdf840e026f4792d98ea160]
+class MochaDecorator--><rect codeLine="49" fill="#FEFECE" filter="url(#f1wd2i903uqgk5)" height="103.3438" id="MochaDecorator" style="stroke:#A80036;stroke-width:1.5;" width="214" x="526" y="306"/><ellipse cx="583.75" cy="322" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M586.5156,317.875 Q586.6719,317.6563 586.8594,317.5469 Q587.0469,317.4375 587.2656,317.4375 Q587.6406,317.4375 587.875,317.6953 Q588.1094,317.9531 588.1094,318.5625 L588.1094,320.0156 Q588.1094,320.625 587.875,320.8906 Q587.6406,321.1563 587.2656,321.1563 Q586.9219,321.1563 586.7188,320.9531 Q586.5156,320.7656 586.4063,320.25 Q586.3594,319.8906 586.1719,319.7031 Q585.8438,319.3281 585.2344,319.1094 Q584.625,318.8906 584,318.8906 Q583.2344,318.8906 582.6016,319.2188 Q581.9688,319.5469 581.4766,320.2969 Q580.9844,321.0469 580.9844,322.0781 L580.9844,323.1719 Q580.9844,324.4063 581.875,325.2266 Q582.7656,326.0469 584.3594,326.0469 Q585.2969,326.0469 585.9531,325.7969 Q586.3438,325.6406 586.7656,325.2031 Q587.0313,324.9375 587.1797,324.8594 Q587.3281,324.7813 587.5313,324.7813 Q587.8594,324.7813 588.1172,325.0391 Q588.375,325.2969 588.375,325.6406 Q588.375,325.9844 588.0313,326.3906 Q587.5313,326.9688 586.7344,327.2969 Q585.6563,327.75 584.3594,327.75 Q582.8438,327.75 581.6406,327.125 Q580.6563,326.625 579.9688,325.5547 Q579.2813,324.4844 579.2813,323.2031 L579.2813,322.0469 Q579.2813,320.7188 579.8984,319.5703 Q580.5156,318.4219 581.6094,317.8047 Q582.7031,317.1875 583.9375,317.1875 Q584.6719,317.1875 585.3203,317.3516 Q585.9688,317.5156 586.5156,317.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="604.25" y="326.9102">MochaDecorator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="527" x2="739" y1="338" y2="338"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="534" y="346"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="546" y="353.4189">Beverage* m_beverage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="527" x2="739" y1="359.8359" y2="359.8359"/><ellipse cx="537" cy="370.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="546" y="375.2549">MochaDecorator(Beverage* beverage)</text><ellipse cx="537" cy="384.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="546" y="389.0908">double cost()</text><ellipse cx="537" cy="398.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="546" y="402.9268">string getDescription()</text><!--MD5=[f45f2220b0b110c1551a8318691639c0]
+class Beverage--><rect codeLine="2" fill="#FEFECE" filter="url(#f1wd2i903uqgk5)" height="103.3438" id="Beverage" style="stroke:#A80036;stroke-width:1.5;" width="275" x="350.5" y="7"/><ellipse cx="457.25" cy="23" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M459.4375,24.7656 L455.2969,24.7656 L454.875,25.7969 L455.2969,25.7969 Q455.9063,25.7969 456.1719,26.0313 Q456.4375,26.2656 456.4375,26.6563 Q456.4375,27.0313 456.1719,27.2656 Q455.9063,27.5 455.2969,27.5 L453,27.5 Q452.3906,27.5 452.1328,27.2656 Q451.875,27.0313 451.875,26.6406 Q451.875,26.2656 452.1484,26.0234 Q452.4219,25.7813 453.0469,25.7969 L455.7188,19.1406 L454.6094,19.1406 Q454,19.1406 453.7344,18.9063 Q453.4688,18.6719 453.4688,18.2813 Q453.4688,17.9063 453.7344,17.6719 Q454,17.4375 454.6094,17.4375 L458.2813,17.4375 L461.6719,25.7969 Q462.2656,25.7969 462.4531,25.9375 Q462.8438,26.2031 462.8438,26.6563 Q462.8438,27.0313 462.5859,27.2656 Q462.3281,27.5 461.7188,27.5 L459.4219,27.5 Q458.8125,27.5 458.5469,27.2656 Q458.2813,27.0313 458.2813,26.6406 Q458.2813,26.2656 458.5469,26.0313 Q458.8125,25.7969 459.4219,25.7969 L459.8438,25.7969 L459.4375,24.7656 Z M458.7188,23.0625 L457.3594,19.6875 L455.9844,23.0625 L458.7188,23.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="477.75" y="27.9102">Beverage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="351.5" x2="624.5" y1="39" y2="39"/><polygon fill="none" points="361.5,45,365.5,49,361.5,53,357.5,49" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="370.5" y="54.4189">string m_description</text><line style="stroke:#A80036;stroke-width:1.5;" x1="351.5" x2="624.5" y1="60.8359" y2="60.8359"/><ellipse cx="361.5" cy="71.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="370.5" y="76.2549">Beverage(){m_description = "unknown"}</text><ellipse cx="361.5" cy="85.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="249" x="370.5" y="90.0908">virtual string getDescription() {return m_description}</text><ellipse cx="361.5" cy="99.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="370.5" y="103.9268">virtual double cost() = 0</text><path d="M660.5,37 L660.5,79.7031 L1267.5,79.7031 L1267.5,47 L1257.5,37 L660.5,37 " fill="#FBFB77" filter="url(#f1wd2i903uqgk5)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1257.5,37 L1257.5,47 L1267.5,47 L1257.5,37 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="381" x="666.5" y="55.4951">Decorators have the same supertype as the objects they decorate</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="586" x="666.5" y="71.8467">So both concreate component and concreate decorator inherite from Beverage to have the same type.</text><!--MD5=[7ff5a1fc75a4122b4e2cb00aae9e47c2]
+class AddsOnDecorator--><rect codeLine="10" fill="#FEFECE" filter="url(#f1wd2i903uqgk5)" height="75.6719" id="AddsOnDecorator" style="stroke:#A80036;stroke-width:1.5;" width="183" x="522.5" y="170"/><ellipse cx="561.35" cy="186" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M562.3031,182.6406 L562.3031,189.2969 L564.0219,189.2969 Q564.6313,189.2969 564.8969,189.5313 Q565.1625,189.7656 565.1625,190.1563 Q565.1625,190.5313 564.8969,190.7656 Q564.6313,191 564.0219,191 L558.8813,191 Q558.2719,191 558.0063,190.7656 Q557.7406,190.5313 557.7406,190.1406 Q557.7406,189.7656 558.0063,189.5313 Q558.2719,189.2969 558.8813,189.2969 L560.6,189.2969 L560.6,182.6406 L558.8813,182.6406 Q558.2719,182.6406 558.0063,182.4063 Q557.7406,182.1719 557.7406,181.7813 Q557.7406,181.4063 558.0063,181.1719 Q558.2719,180.9375 558.8813,180.9375 L564.0219,180.9375 Q564.6313,180.9375 564.8969,181.1719 Q565.1625,181.4063 565.1625,181.7813 Q565.1625,182.1719 564.8969,182.4063 Q564.6313,182.6406 564.0219,182.6406 L562.3031,182.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="98" x="580.65" y="190.9102">AddsOnDecorator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="523.5" x2="704.5" y1="202" y2="202"/><line style="stroke:#A80036;stroke-width:1.5;" x1="523.5" x2="704.5" y1="210" y2="210"/><ellipse cx="533.5" cy="221" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="542.5" y="225.4189">virtual string getDescription() = 0</text><ellipse cx="533.5" cy="234.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="542.5" y="239.2549">virtual double cost() = 0</text><!--MD5=[9a3b4aa51ad0a21eee9aa24ec62ac789]
+reverse link Beverage to AddsOnDecorator--><path codeLine="16" d="M532.27,126.19 C544.8,141.11 558.36,156.43 570.85,169.66 " fill="none" id="Beverage-backto-AddsOnDecorator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="526.47,130.16,519.18,110.26,537.29,121.27,526.47,130.16" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9a3b4aa51ad0a21eee9aa24ec62ac789]
+reverse link Beverage to AddsOnDecorator--><path codeLine="19" d="M548,114.41 C564.53,132.82 581.3,152.91 594.02,169.66 " fill="none" id="Beverage-backto-AddsOnDecorator-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="544.26,110.26,547.3274,119.619,547.6127,113.9694,553.2624,114.2547,544.26,110.26" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8dbf19f79ce1be5cb97ad63828362b6e]
+link Decaf to N1--><path codeLine="34" d="M157.54,246.22 C178.95,271.48 206.84,304.39 226.56,327.67 " fill="none" id="Decaf-N1" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[89a417b2265ed73feb7aae047d90c698]
+link Espresso to N1--><path codeLine="35" d="M333.99,246.22 C314.98,271.48 290.21,304.39 272.7,327.67 " fill="none" id="Espresso-N1" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[9ab9d4bf547d7982b0339bff1cafba9c]
+reverse link Beverage to Espresso--><path codeLine="38" d="M431.44,125.71 C418.56,140.79 405.32,156.29 393.9,169.66 " fill="none" id="Beverage-backto-Espresso" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="426.33,120.92,444.64,110.26,436.97,130.01,426.33,120.92" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2043822e86ab2b7f3d53c168bf142118]
+reverse link Beverage to Decaf--><path codeLine="39" d="M330.59,91.6 C298.83,100.72 266.24,112.07 237,126 C212.88,137.49 188.62,154.43 168.96,169.86 " fill="none" id="Beverage-backto-Decaf" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="329.09,84.75,350.23,86.21,332.8,98.25,329.09,84.75" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a4e9a91baa8c717bcbf362963bfe6224]
+reverse link AddsOnDecorator to MilkDecorator--><path d="M724.42,245.37 C736.01,250.44 747.41,255.99 758,262 C779.57,274.24 801.25,290.41 819.98,305.91 " fill="none" id="AddsOnDecorator-backto-MilkDecorator" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="721.33,251.67,705.52,237.56,726.68,238.73,721.33,251.67" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[95308bc5c4108a836d3ece7b1118bd57]
+reverse link AddsOnDecorator to MochaDecorator--><path d="M621.4,266.48 C623.08,279.49 624.85,293.22 626.48,305.92 " fill="none" id="AddsOnDecorator-backto-MochaDecorator" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="614.41,266.95,618.79,246.22,628.29,265.16,614.41,266.95" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[82aa667acc68307911b0e283a1ed78e1]
+@startuml Decorator Pattern
+
+abstract Beverage{
+    # string m_description 
+    + Beverage(){m_description = "unknown"}
+    + virtual string getDescription() {return m_description}
+    + virtual double cost() = 0
+}
+note "Decorators have the same supertype as the objects they decorate\nSo both concreate component and concreate decorator inherite from Beverage to have the same type." as N3
+
+Interface AddsOnDecorator{
+    + virtual string getDescription() = 0
+    + virtual double cost() = 0
+}
+
+
+Beverage <|- - AddsOnDecorator
+
+' Each concrete decorator\n has a Beverage member to decorate(wrap)
+Beverage <- - AddsOnDecorator
+
+
+package "Concrete Component"{
+class Espresso  {
+    + Espresso(){m_description = "Esresso"}
+    + double cost()
+}
+
+class Decaf {
+    + Decaf(){m_description = "Decaf"}
+    + double cost()
+}
+
+note "*Each component can be used on its own, or wrapped by a decorator\n*Reuse the member m_description\n*Inherit the getDescription() from Beverage" as N1
+Decaf .. N1
+Espresso .. N1
+}
+
+Beverage <|- - Espresso
+Beverage <|- - Decaf
+package "Concrete Decorator: each has a Beverage member to decorate(wrap)"{
+
+class MilkDecorator implements AddsOnDecorator{
+    - Beverage* m_beverage
+    + MilkDecorator(Beverage* beverage)
+    + double cost()
+    + string getDescription()
+}
+
+class MochaDecorator implements AddsOnDecorator{
+    - Beverage* m_beverage
+    + MochaDecorator(Beverage* beverage)
+    + double cost()
+    + string getDescription()
+}
+
+
+}
+@enduml
+
+@startuml Decorator Pattern
+
+abstract Beverage{
+    # string m_description 
+    + Beverage(){m_description = "unknown"}
+    + virtual string getDescription() {return m_description}
+    + virtual double cost() = 0
+}
+note "Decorators have the same supertype as the objects they decorate\nSo both concreate component and concreate decorator inherite from Beverage to have the same type." as N3
+
+Interface AddsOnDecorator{
+    + virtual string getDescription() = 0
+    + virtual double cost() = 0
+}
+
+
+Beverage <|- - AddsOnDecorator
+
+Beverage <- - AddsOnDecorator
+
+
+package "Concrete Component"{
+class Espresso  {
+    + Espresso(){m_description = "Esresso"}
+    + double cost()
+}
+
+class Decaf {
+    + Decaf(){m_description = "Decaf"}
+    + double cost()
+}
+
+note "*Each component can be used on its own, or wrapped by a decorator\n*Reuse the member m_description\n*Inherit the getDescription() from Beverage" as N1
+Decaf .. N1
+Espresso .. N1
+}
+
+Beverage <|- - Espresso
+Beverage <|- - Decaf
+package "Concrete Decorator: each has a Beverage member to decorate(wrap)"{
+
+class MilkDecorator implements AddsOnDecorator{
+    - Beverage* m_beverage
+    + MilkDecorator(Beverage* beverage)
+    + double cost()
+    + string getDescription()
+}
+
+class MochaDecorator implements AddsOnDecorator{
+    - Beverage* m_beverage
+    + MochaDecorator(Beverage* beverage)
+    + double cost()
+    + string getDescription()
+}
+
+
+}
+@enduml
+
+PlantUML version 1.2021.12(Wed Oct 06 00:01:58 CST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

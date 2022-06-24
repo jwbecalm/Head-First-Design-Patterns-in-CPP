@@ -11,6 +11,8 @@ class Beverage{
     
     public:
     Beverage();
+    virtual ~Beverage();
+
     virtual string getDescription();    // must be virtual 
     virtual double cost() = 0;
 

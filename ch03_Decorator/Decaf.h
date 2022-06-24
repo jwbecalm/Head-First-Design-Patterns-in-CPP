@@ -6,7 +6,9 @@
 class Decaf : public Beverage{
     public:
     Decaf();
-    double cost();
+    ~Decaf();
+
+    double cost() override;
 };
 
 #endif

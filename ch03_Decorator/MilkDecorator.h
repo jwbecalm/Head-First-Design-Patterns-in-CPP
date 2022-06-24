@@ -12,8 +12,10 @@ class MilkDecorator : public AddsOnDecorator{
     
     public:
     MilkDecorator(Beverage* beverage);
-    double cost();
-    string getDescription();
+    ~MilkDecorator();
+
+    double cost() override;
+    string getDescription() override;
 
 };
 #endif

@@ -12,8 +12,10 @@ class MochaDecorator : public AddsOnDecorator{
     
     public:
     MochaDecorator(Beverage* beverage);
-    double cost();
-    string getDescription();
+    ~MochaDecorator();
+
+    double cost() override;
+    string getDescription() override;
 
 };
 #endif

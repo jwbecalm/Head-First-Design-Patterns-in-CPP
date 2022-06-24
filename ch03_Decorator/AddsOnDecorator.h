@@ -8,6 +8,7 @@ using std::string;
 class AddsOnDecorator : public Beverage{  
     public:
     virtual string getDescription() = 0;
+    
     virtual double cost() = 0;
 };
 #endif
