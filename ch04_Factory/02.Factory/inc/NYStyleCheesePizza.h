@@ -6,7 +6,7 @@ class NYStyleCheesePizza : public Pizza
     public:
     NYStyleCheesePizza();
     ~NYStyleCheesePizza();
-    void prepare();
+    void prepare() override;
 };
 
 

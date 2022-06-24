@@ -6,7 +6,7 @@ class ChicagoStyleCheesePizza : public Pizza
     public:
     ChicagoStyleCheesePizza();
     ~ChicagoStyleCheesePizza();
-    void cut();
+    void cut() override;
 };
 
 

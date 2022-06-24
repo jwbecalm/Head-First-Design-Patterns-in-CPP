@@ -6,7 +6,7 @@ class NYStyleVeggiePizza : public Pizza
     public:
     NYStyleVeggiePizza();
     ~NYStyleVeggiePizza();
-    void bake();
+    void bake() override;
 };
 
 

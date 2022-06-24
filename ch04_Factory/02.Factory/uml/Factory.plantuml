@@ -1,4 +1,5 @@
 @startuml Factory
+
 namespace factory.factory{
     abstract PizzaStore{
         # virtual Pizza* createPizza(string type) = 0
