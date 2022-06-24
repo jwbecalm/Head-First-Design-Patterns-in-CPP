@@ -3,7 +3,7 @@
 
 
 # Class diagram for Simple Factory pattern
-![Alt text](./plantuml/SimpleFactory.svg)
+![Alt text](./uml/SimpleFactory.svg)
 
 # 参考资料
 https://www.youtube.com/watch?v=EcFVTgRHJLM&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=4
