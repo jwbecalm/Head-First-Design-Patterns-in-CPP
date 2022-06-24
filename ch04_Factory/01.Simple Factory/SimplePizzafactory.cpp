@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 
 SimplePizzaFactory::SimplePizzaFactory(){
-    cout << "in SimplePizzaFactory()" << endl << endl;
+    cout << "in SimplePizzaFactory()" << endl;
 
 }
 
@@ -15,6 +15,7 @@ SimplePizzaFactory::~SimplePizzaFactory(){
 }
 
 Pizza* SimplePizzaFactory::createPizza(string type){
+    cout << "invoke SimplePizzaFactory::createPizza()" << endl;
     Pizza* pizza = NULL;
 
     if (type.compare("cheese") == 0){

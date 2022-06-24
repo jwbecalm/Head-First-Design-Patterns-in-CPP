@@ -12,5 +12,5 @@ CheesePizza::~CheesePizza(){
 }
 
 void CheesePizza:: prepare(){
-    cout << "CheesePizza:: void prepare()" << endl;
+    cout << "in CheesePizza::prepare(), begin to specific prepare: " << getName() << endl;
 }

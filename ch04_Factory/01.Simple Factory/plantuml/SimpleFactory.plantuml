@@ -1,0 +1,43 @@
+@startuml SimpleFactory
+
+namespace factory.simple_factory{
+
+class PizzaStore{
+    - SimplePizzaFactory* m_factory
+    + PizzaStore(SimplePizzaFactory* factory)
+    + Pizza* orderPizza(<color:blue>string type)
+}
+
+class SimplePizzaFactory{
+    + Pizza* createPizza(<color:blue>string type)
+}
+
+abstract class Pizza{
+    # string m_name
+    + string getName()
+    + virtual void prepare()
+    + virtual void bake()
+    + virtual void cut()
+    + virtual void box()
+}
+class CheesePizza extends Pizza{
+    + void prepare()
+}
+class VeggiePizza extends Pizza{
+    + void box()
+}
+
+'layout
+PizzaStore -[hidden]> SimplePizzaFactory
+SimplePizzaFactory -[hidden]> Pizza
+
+PizzaStore --> SimplePizzaFactory: has a
+SimplePizzaFactory ..> Pizza: depends on(uses a )
+
+' Association: One object is aware of another; it contains a pointer or reference to another object.
+}
+
+
+
+
+@enduml

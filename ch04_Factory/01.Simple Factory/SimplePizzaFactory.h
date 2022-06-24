@@ -9,6 +9,7 @@ class SimplePizzaFactory {
     public:
     SimplePizzaFactory();
     ~SimplePizzaFactory();
+    // 封装Pizza对象的创建
     Pizza* createPizza(string type);
 
 

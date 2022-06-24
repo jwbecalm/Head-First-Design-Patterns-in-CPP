@@ -11,5 +11,5 @@ VeggiePizza::~VeggiePizza(){
 }
 
 void VeggiePizza:: box(){
-    cout << "VeggiePizza:: void box()" << endl;
+    cout << "in VeggiePizza::box(), begin to specific box: " << getName() << endl;
 }

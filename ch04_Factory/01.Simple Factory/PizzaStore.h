@@ -9,9 +9,10 @@ class PizzaStore {
     SimplePizzaFactory* m_factory;
     
     public:
-    PizzaStore();
-    ~PizzaStore();
+
     PizzaStore(SimplePizzaFactory* factory);
+    ~PizzaStore();
+    
     virtual Pizza* orderPizza(string type);
 };
 

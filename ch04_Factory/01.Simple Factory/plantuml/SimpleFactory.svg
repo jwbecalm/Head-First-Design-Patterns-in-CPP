@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="319px" preserveAspectRatio="none" style="width:813px;height:319px;background:#FFFFFF;" version="1.1" viewBox="0 0 813 319" width="813px" zoomAndPan="magnify"><defs><filter height="300%" id="f16342r860rj2f" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0a1341ba642cd7e439e958cb3054560a]
+cluster factory.simple_factory--><polygon fill="#FFFFFF" filter="url(#f16342r860rj2f)" points="16,6,176,6,183,29.6094,796,29.6094,796,312,16,312,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="183" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="154" x="20" y="22.5332">factory.simple_factory</text><!--MD5=[fbb39efb642f7786ad111c6a215ffda3]
+class factory.simple_factory.PizzaStore--><rect codeLine="4" fill="#FEFECE" filter="url(#f16342r860rj2f)" height="89.5078" id="factory.simple_factory.PizzaStore" style="stroke:#A80036;stroke-width:1.5;" width="222" x="32" y="62.5"/><ellipse cx="110.25" cy="78.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M113.0156,74.375 Q113.1719,74.1563 113.3594,74.0469 Q113.5469,73.9375 113.7656,73.9375 Q114.1406,73.9375 114.375,74.1953 Q114.6094,74.4531 114.6094,75.0625 L114.6094,76.5156 Q114.6094,77.125 114.375,77.3906 Q114.1406,77.6563 113.7656,77.6563 Q113.4219,77.6563 113.2188,77.4531 Q113.0156,77.2656 112.9063,76.75 Q112.8594,76.3906 112.6719,76.2031 Q112.3438,75.8281 111.7344,75.6094 Q111.125,75.3906 110.5,75.3906 Q109.7344,75.3906 109.1016,75.7188 Q108.4688,76.0469 107.9766,76.7969 Q107.4844,77.5469 107.4844,78.5781 L107.4844,79.6719 Q107.4844,80.9063 108.375,81.7266 Q109.2656,82.5469 110.8594,82.5469 Q111.7969,82.5469 112.4531,82.2969 Q112.8438,82.1406 113.2656,81.7031 Q113.5313,81.4375 113.6797,81.3594 Q113.8281,81.2813 114.0313,81.2813 Q114.3594,81.2813 114.6172,81.5391 Q114.875,81.7969 114.875,82.1406 Q114.875,82.4844 114.5313,82.8906 Q114.0313,83.4688 113.2344,83.7969 Q112.1563,84.25 110.8594,84.25 Q109.3438,84.25 108.1406,83.625 Q107.1563,83.125 106.4688,82.0547 Q105.7813,80.9844 105.7813,79.7031 L105.7813,78.5469 Q105.7813,77.2188 106.3984,76.0703 Q107.0156,74.9219 108.1094,74.3047 Q109.2031,73.6875 110.4375,73.6875 Q111.1719,73.6875 111.8203,73.8516 Q112.4688,74.0156 113.0156,74.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="130.75" y="83.4102">PizzaStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="253" y1="94.5" y2="94.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="102.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="52" y="109.9189">SimplePizzaFactory* m_factory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="253" y1="116.3359" y2="116.3359"/><ellipse cx="43" cy="127.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="52" y="131.7549">PizzaStore(SimplePizzaFactory* factory)</text><ellipse cx="43" cy="141.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="52" y="145.5908">Pizza* orderPizza(</text><text fill="#0000FF" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="141" y="145.5908">string type)</text><!--MD5=[6c539b4fdcd535cf59e0420a84a40bac]
+class factory.simple_factory.SimplePizzaFactory--><rect codeLine="10" fill="#FEFECE" filter="url(#f16342r860rj2f)" height="61.8359" id="factory.simple_factory.SimplePizzaFactory" style="stroke:#A80036;stroke-width:1.5;" width="175" x="322.5" y="76.5"/><ellipse cx="354.15" cy="92.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M356.9156,88.375 Q357.0719,88.1563 357.2594,88.0469 Q357.4469,87.9375 357.6656,87.9375 Q358.0406,87.9375 358.275,88.1953 Q358.5094,88.4531 358.5094,89.0625 L358.5094,90.5156 Q358.5094,91.125 358.275,91.3906 Q358.0406,91.6563 357.6656,91.6563 Q357.3219,91.6563 357.1188,91.4531 Q356.9156,91.2656 356.8063,90.75 Q356.7594,90.3906 356.5719,90.2031 Q356.2438,89.8281 355.6344,89.6094 Q355.025,89.3906 354.4,89.3906 Q353.6344,89.3906 353.0016,89.7188 Q352.3688,90.0469 351.8766,90.7969 Q351.3844,91.5469 351.3844,92.5781 L351.3844,93.6719 Q351.3844,94.9063 352.275,95.7266 Q353.1656,96.5469 354.7594,96.5469 Q355.6969,96.5469 356.3531,96.2969 Q356.7438,96.1406 357.1656,95.7031 Q357.4313,95.4375 357.5797,95.3594 Q357.7281,95.2813 357.9313,95.2813 Q358.2594,95.2813 358.5172,95.5391 Q358.775,95.7969 358.775,96.1406 Q358.775,96.4844 358.4313,96.8906 Q357.9313,97.4688 357.1344,97.7969 Q356.0563,98.25 354.7594,98.25 Q353.2438,98.25 352.0406,97.625 Q351.0563,97.125 350.3688,96.0547 Q349.6813,94.9844 349.6813,93.7031 L349.6813,92.5469 Q349.6813,91.2188 350.2984,90.0703 Q350.9156,88.9219 352.0094,88.3047 Q353.1031,87.6875 354.3375,87.6875 Q355.0719,87.6875 355.7203,87.8516 Q356.3688,88.0156 356.9156,88.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="106" x="371.85" y="97.4102">SimplePizzaFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="323.5" x2="496.5" y1="108.5" y2="108.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="323.5" x2="496.5" y1="116.5" y2="116.5"/><ellipse cx="333.5" cy="127.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="342.5" y="131.9189">Pizza* createPizza(</text><text fill="#0000FF" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="436.5" y="131.9189">string type)</text><!--MD5=[7cdf81575c1ccf94d86d7ef83689447e]
+class factory.simple_factory.Pizza--><rect codeLine="14" fill="#FEFECE" filter="url(#f16342r860rj2f)" height="131.0156" id="factory.simple_factory.Pizza" style="stroke:#A80036;stroke-width:1.5;" width="127" x="652.5" y="42"/><ellipse cx="695.85" cy="58" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M698.0375,59.7656 L693.8969,59.7656 L693.475,60.7969 L693.8969,60.7969 Q694.5063,60.7969 694.7719,61.0313 Q695.0375,61.2656 695.0375,61.6563 Q695.0375,62.0313 694.7719,62.2656 Q694.5063,62.5 693.8969,62.5 L691.6,62.5 Q690.9906,62.5 690.7328,62.2656 Q690.475,62.0313 690.475,61.6406 Q690.475,61.2656 690.7484,61.0234 Q691.0219,60.7813 691.6469,60.7969 L694.3188,54.1406 L693.2094,54.1406 Q692.6,54.1406 692.3344,53.9063 Q692.0688,53.6719 692.0688,53.2813 Q692.0688,52.9063 692.3344,52.6719 Q692.6,52.4375 693.2094,52.4375 L696.8813,52.4375 L700.2719,60.7969 Q700.8656,60.7969 701.0531,60.9375 Q701.4438,61.2031 701.4438,61.6563 Q701.4438,62.0313 701.1859,62.2656 Q700.9281,62.5 700.3188,62.5 L698.0219,62.5 Q697.4125,62.5 697.1469,62.2656 Q696.8813,62.0313 696.8813,61.6406 Q696.8813,61.2656 697.1469,61.0313 Q697.4125,60.7969 698.0219,60.7969 L698.4438,60.7969 L698.0375,59.7656 Z M697.3188,58.0625 L695.9594,54.6875 L694.5844,58.0625 L697.3188,58.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="32" x="716.15" y="62.9102">Pizza</text><line style="stroke:#A80036;stroke-width:1.5;" x1="653.5" x2="778.5" y1="74" y2="74"/><polygon fill="none" points="663.5,80,667.5,84,663.5,88,659.5,84" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="672.5" y="89.4189">string m_name</text><line style="stroke:#A80036;stroke-width:1.5;" x1="653.5" x2="778.5" y1="95.8359" y2="95.8359"/><ellipse cx="663.5" cy="106.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="672.5" y="111.2549">string getName()</text><ellipse cx="663.5" cy="120.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="672.5" y="125.0908">virtual void prepare()</text><ellipse cx="663.5" cy="134.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="672.5" y="138.9268">virtual void bake()</text><ellipse cx="663.5" cy="148.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="672.5" y="152.7627">virtual void cut()</text><ellipse cx="663.5" cy="162.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="672.5" y="166.5986">virtual void box()</text><!--MD5=[55314119bfb0ba3815577e244a1b03ae]
+class factory.simple_factory.CheesePizza--><rect codeLine="22" fill="#FEFECE" filter="url(#f16342r860rj2f)" height="61.8359" id="factory.simple_factory.CheesePizza" style="stroke:#A80036;stroke-width:1.5;" width="104" x="539" y="234"/><ellipse cx="554" cy="250" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M556.7656,245.875 Q556.9219,245.6563 557.1094,245.5469 Q557.2969,245.4375 557.5156,245.4375 Q557.8906,245.4375 558.125,245.6953 Q558.3594,245.9531 558.3594,246.5625 L558.3594,248.0156 Q558.3594,248.625 558.125,248.8906 Q557.8906,249.1563 557.5156,249.1563 Q557.1719,249.1563 556.9688,248.9531 Q556.7656,248.7656 556.6563,248.25 Q556.6094,247.8906 556.4219,247.7031 Q556.0938,247.3281 555.4844,247.1094 Q554.875,246.8906 554.25,246.8906 Q553.4844,246.8906 552.8516,247.2188 Q552.2188,247.5469 551.7266,248.2969 Q551.2344,249.0469 551.2344,250.0781 L551.2344,251.1719 Q551.2344,252.4063 552.125,253.2266 Q553.0156,254.0469 554.6094,254.0469 Q555.5469,254.0469 556.2031,253.7969 Q556.5938,253.6406 557.0156,253.2031 Q557.2813,252.9375 557.4297,252.8594 Q557.5781,252.7813 557.7813,252.7813 Q558.1094,252.7813 558.3672,253.0391 Q558.625,253.2969 558.625,253.6406 Q558.625,253.9844 558.2813,254.3906 Q557.7813,254.9688 556.9844,255.2969 Q555.9063,255.75 554.6094,255.75 Q553.0938,255.75 551.8906,255.125 Q550.9063,254.625 550.2188,253.5547 Q549.5313,252.4844 549.5313,251.2031 L549.5313,250.0469 Q549.5313,248.7188 550.1484,247.5703 Q550.7656,246.4219 551.8594,245.8047 Q552.9531,245.1875 554.1875,245.1875 Q554.9219,245.1875 555.5703,245.3516 Q556.2188,245.5156 556.7656,245.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="72" x="568" y="254.9102">CheesePizza</text><line style="stroke:#A80036;stroke-width:1.5;" x1="540" x2="642" y1="266" y2="266"/><line style="stroke:#A80036;stroke-width:1.5;" x1="540" x2="642" y1="274" y2="274"/><ellipse cx="550" cy="285" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="559" y="289.4189">void prepare()</text><!--MD5=[9a36a71eb49e27d9fc9cac497250bc33]
+class factory.simple_factory.VeggiePizza--><rect codeLine="25" fill="#FEFECE" filter="url(#f16342r860rj2f)" height="61.8359" id="factory.simple_factory.VeggiePizza" style="stroke:#A80036;stroke-width:1.5;" width="98" x="678" y="234"/><ellipse cx="693" cy="250" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M695.7656,245.875 Q695.9219,245.6563 696.1094,245.5469 Q696.2969,245.4375 696.5156,245.4375 Q696.8906,245.4375 697.125,245.6953 Q697.3594,245.9531 697.3594,246.5625 L697.3594,248.0156 Q697.3594,248.625 697.125,248.8906 Q696.8906,249.1563 696.5156,249.1563 Q696.1719,249.1563 695.9688,248.9531 Q695.7656,248.7656 695.6563,248.25 Q695.6094,247.8906 695.4219,247.7031 Q695.0938,247.3281 694.4844,247.1094 Q693.875,246.8906 693.25,246.8906 Q692.4844,246.8906 691.8516,247.2188 Q691.2188,247.5469 690.7266,248.2969 Q690.2344,249.0469 690.2344,250.0781 L690.2344,251.1719 Q690.2344,252.4063 691.125,253.2266 Q692.0156,254.0469 693.6094,254.0469 Q694.5469,254.0469 695.2031,253.7969 Q695.5938,253.6406 696.0156,253.2031 Q696.2813,252.9375 696.4297,252.8594 Q696.5781,252.7813 696.7813,252.7813 Q697.1094,252.7813 697.3672,253.0391 Q697.625,253.2969 697.625,253.6406 Q697.625,253.9844 697.2813,254.3906 Q696.7813,254.9688 695.9844,255.2969 Q694.9063,255.75 693.6094,255.75 Q692.0938,255.75 690.8906,255.125 Q689.9063,254.625 689.2188,253.5547 Q688.5313,252.4844 688.5313,251.2031 L688.5313,250.0469 Q688.5313,248.7188 689.1484,247.5703 Q689.7656,246.4219 690.8594,245.8047 Q691.9531,245.1875 693.1875,245.1875 Q693.9219,245.1875 694.5703,245.3516 Q695.2188,245.5156 695.7656,245.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66" x="707" y="254.9102">VeggiePizza</text><line style="stroke:#A80036;stroke-width:1.5;" x1="679" x2="775" y1="266" y2="266"/><line style="stroke:#A80036;stroke-width:1.5;" x1="679" x2="775" y1="274" y2="274"/><ellipse cx="689" cy="285" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="698" y="289.4189">void box()</text><!--MD5=[35d9fa64ac3ec756951780496879b493]
+reverse link factory.simple_factory.Pizza to factory.simple_factory.CheesePizza--><path d="M651.28,189.01 C638.44,204.98 625.73,220.79 615.32,233.75 " fill="none" id="factory.simple_factory.Pizza-backto-factory.simple_factory.CheesePizza" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="646.09,184.3,664.07,173.1,657,193.07,646.09,184.3" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7f2cf84f94a55087fc005ee464f0d4d2]
+reverse link factory.simple_factory.Pizza to factory.simple_factory.VeggiePizza--><path d="M722.01,193.5 C723.03,207.92 724.03,222.01 724.86,233.75 " fill="none" id="factory.simple_factory.Pizza-backto-factory.simple_factory.VeggiePizza" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="715,193.54,720.57,173.1,728.96,192.55,715,193.54" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[50677ea7bef262bbbcb007569984f3fb]
+link factory.simple_factory.PizzaStore to factory.simple_factory.SimplePizzaFactory--><!--MD5=[50677ea7bef262bbbcb007569984f3fb]
+link factory.simple_factory.PizzaStore to factory.simple_factory.SimplePizzaFactory--><path codeLine="33" d="M254.3,107.5 C275.27,107.5 297,107.5 317.33,107.5 " fill="none" id="factory.simple_factory.PizzaStore-to-factory.simple_factory.SimplePizzaFactory-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="322.46,107.5,313.46,103.5,317.46,107.5,313.46,111.5,322.46,107.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="272.25" y="100.9951">has a</text><!--MD5=[494770268ca8c5f4c1a47983ab5451ef]
+link factory.simple_factory.SimplePizzaFactory to factory.simple_factory.Pizza--><!--MD5=[494770268ca8c5f4c1a47983ab5451ef]
+link factory.simple_factory.SimplePizzaFactory to factory.simple_factory.Pizza--><path codeLine="34" d="M497.69,107.5 C545.13,107.5 602.89,107.5 647.08,107.5 " fill="none" id="factory.simple_factory.SimplePizzaFactory-to-factory.simple_factory.Pizza-1" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="652.13,107.5,643.13,103.5,647.13,107.5,643.13,111.5,652.13,107.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="516" y="100.9951">depends on(uses a )</text><!--MD5=[ea34a0c03f062c053fcfbcabcd2807d1]
+@startuml SimpleFactory
+
+namespace factory.simple_factory{
+
+class PizzaStore{
+    - SimplePizzaFactory* m_factory
+    + PizzaStore(SimplePizzaFactory* factory)
+    + Pizza* orderPizza(<color:blue>string type)
+}
+
+class SimplePizzaFactory{
+    + Pizza* createPizza(<color:blue>string type)
+}
+
+abstract class Pizza{
+    # string m_name
+    + string getName()
+    + virtual void prepare()
+    + virtual void bake()
+    + virtual void cut()
+    + virtual void box()
+}
+class CheesePizza extends Pizza{
+    + void prepare()
+}
+class VeggiePizza extends Pizza{
+    + void box()
+}
+
+'layout
+PizzaStore -[hidden]> SimplePizzaFactory
+SimplePizzaFactory -[hidden]> Pizza
+
+PizzaStore - -> SimplePizzaFactory: has a
+SimplePizzaFactory ..> Pizza: depends on(uses a )
+
+' Association: One object is aware of another; it contains a pointer or reference to another object.
+}
+
+
+
+
+@enduml
+
+@startuml SimpleFactory
+
+namespace factory.simple_factory{
+
+class PizzaStore{
+    - SimplePizzaFactory* m_factory
+    + PizzaStore(SimplePizzaFactory* factory)
+    + Pizza* orderPizza(<color:blue>string type)
+}
+
+class SimplePizzaFactory{
+    + Pizza* createPizza(<color:blue>string type)
+}
+
+abstract class Pizza{
+    # string m_name
+    + string getName()
+    + virtual void prepare()
+    + virtual void bake()
+    + virtual void cut()
+    + virtual void box()
+}
+class CheesePizza extends Pizza{
+    + void prepare()
+}
+class VeggiePizza extends Pizza{
+    + void box()
+}
+
+PizzaStore -[hidden]> SimplePizzaFactory
+SimplePizzaFactory -[hidden]> Pizza
+
+PizzaStore - -> SimplePizzaFactory: has a
+SimplePizzaFactory ..> Pizza: depends on(uses a )
+
+}
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.12(Wed Oct 06 00:01:58 CST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
