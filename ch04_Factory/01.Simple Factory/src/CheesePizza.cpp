@@ -1,4 +1,4 @@
-#include "../inc/CheesePizza.h"
+#include "CheesePizza.h"
 #include <iostream>
 using namespace std;
 

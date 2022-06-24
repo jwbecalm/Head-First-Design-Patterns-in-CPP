@@ -1,4 +1,4 @@
-#include "../inc/Pizza.h"
+#include "Pizza.h"
 #include <iostream>
 #include <string>
 

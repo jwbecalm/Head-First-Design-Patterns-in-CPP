@@ -1,4 +1,4 @@
-#include "../inc/PizzaStore.h"
+#include "PizzaStore.h"
 #include <iostream>
 using namespace std;
 
