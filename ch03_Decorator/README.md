@@ -6,7 +6,7 @@
 新行为通过组合对象得到。
 
 # Class diagram for Decorator pattern
-![Alt text](./plantuml/Decorator%20Pattern.svg)
+![Alt text](./uml/Decorator%20Pattern.svg)
 
 # 参考资料
 https://www.youtube.com/watch?v=GCraGHx6gso&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=3
