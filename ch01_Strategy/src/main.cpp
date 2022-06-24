@@ -1,5 +1,5 @@
-#include "MallarDuck.h"
-#include "rubberDuck.h"
+#include "../inc/MallarDuck.h"
+#include "../inc/rubberDuck.h"
 
 #include <iostream>
 using std::cout;

@@ -1,4 +1,4 @@
-#include "RubberDuck.h"
+#include "../inc/RubberDuck.h"
 
 #include <iostream>
 using std::cout;
