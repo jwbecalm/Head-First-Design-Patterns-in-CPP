@@ -12,7 +12,8 @@ class Target{
     virtual ~Target(){
         cout << "Target::~Target()" << endl;
     }
-    virtual void request() = 0;
+
+    virtual void request();
 
 };
 

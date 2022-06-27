@@ -3,8 +3,8 @@
 class client{
 
 }
-interface Target{
-    + void request()
+class Target{
+    + virtual void request()
 }
 
 client -> Target
