@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="110px" preserveAspectRatio="none" style="width:209px;height:110px;background:#FFFFFF;" version="1.1" viewBox="0 0 209 110" width="209px" zoomAndPan="magnify"><defs><filter height="300%" id="f185y530nafus6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2f4e497837a991172d40b04b7a7d0ca2]
+class Singleton--><rect codeLine="2" fill="#FEFECE" filter="url(#f185y530nafus6)" height="89.5078" id="Singleton" style="stroke:#A80036;stroke-width:1.5;" width="188" x="7" y="7"/><ellipse cx="70.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M73.5156,18.875 Q73.6719,18.6563 73.8594,18.5469 Q74.0469,18.4375 74.2656,18.4375 Q74.6406,18.4375 74.875,18.6953 Q75.1094,18.9531 75.1094,19.5625 L75.1094,21.0156 Q75.1094,21.625 74.875,21.8906 Q74.6406,22.1563 74.2656,22.1563 Q73.9219,22.1563 73.7188,21.9531 Q73.5156,21.7656 73.4063,21.25 Q73.3594,20.8906 73.1719,20.7031 Q72.8438,20.3281 72.2344,20.1094 Q71.625,19.8906 71,19.8906 Q70.2344,19.8906 69.6016,20.2188 Q68.9688,20.5469 68.4766,21.2969 Q67.9844,22.0469 67.9844,23.0781 L67.9844,24.1719 Q67.9844,25.4063 68.875,26.2266 Q69.7656,27.0469 71.3594,27.0469 Q72.2969,27.0469 72.9531,26.7969 Q73.3438,26.6406 73.7656,26.2031 Q74.0313,25.9375 74.1797,25.8594 Q74.3281,25.7813 74.5313,25.7813 Q74.8594,25.7813 75.1172,26.0391 Q75.375,26.2969 75.375,26.6406 Q75.375,26.9844 75.0313,27.3906 Q74.5313,27.9688 73.7344,28.2969 Q72.6563,28.75 71.3594,28.75 Q69.8438,28.75 68.6406,28.125 Q67.6563,27.625 66.9688,26.5547 Q66.2813,25.4844 66.2813,24.2031 L66.2813,23.0469 Q66.2813,21.7188 66.8984,20.5703 Q67.5156,19.4219 68.6094,18.8047 Q69.7031,18.1875 70.9375,18.1875 Q71.6719,18.1875 72.3203,18.3516 Q72.9688,18.5156 73.5156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="91.25" y="27.9102">Singleton</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="194" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="47"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="27" y="54.4189">static Singleton* m_instance</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="194" y1="60.8359" y2="60.8359"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="68.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="27" y="76.2549">Singleton()   // private constructor</text><ellipse cx="18" cy="85.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="27" y="90.0908">static Singleton* getInstance()</text><!--MD5=[10225b8c50e6e97d79badc41fdc9eda8]
+@startuml Singleton
+
+class Singleton{
+    - static Singleton* m_instance
+    - Singleton()   // private constructor
+    + static Singleton* getInstance()
+}
+
+@enduml
+
+PlantUML version 1.2021.12(Wed Oct 06 00:01:58 CST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
