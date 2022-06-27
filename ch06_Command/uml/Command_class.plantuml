@@ -19,6 +19,10 @@ interface Command{
 }
 RemoteControl -> Command: has
 
+
+    
+
+
 class Light{
     + void on()
     + void off()

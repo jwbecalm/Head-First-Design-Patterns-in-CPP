@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="591px" preserveAspectRatio="none" style="width:714px;height:591px;background:#FFFFFF;" version="1.1" viewBox="0 0 714 591" width="714px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fycmaskxmjj8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4556b03a91d85c50310917d6f0a07cd4]
+cluster concrete command--><polygon fill="#FFFFFF" filter="url(#f1fycmaskxmjj8)" points="272,285,412,285,419,308.6094,625,308.6094,625,584.5,272,584.5,272,285" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="272" x2="419" y1="308.6094" y2="308.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="134" x="276" y="301.5332">concrete command</text><!--MD5=[ed666ecf008a7ca9d91cdeef9efaee9c]
+class LightOnCommand--><rect codeLine="35" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="89.5078" id="LightOnCommand" style="stroke:#A80036;stroke-width:1.5;" width="134" x="457" y="321"/><ellipse cx="472" cy="337" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M474.7656,332.875 Q474.9219,332.6563 475.1094,332.5469 Q475.2969,332.4375 475.5156,332.4375 Q475.8906,332.4375 476.125,332.6953 Q476.3594,332.9531 476.3594,333.5625 L476.3594,335.0156 Q476.3594,335.625 476.125,335.8906 Q475.8906,336.1563 475.5156,336.1563 Q475.1719,336.1563 474.9688,335.9531 Q474.7656,335.7656 474.6563,335.25 Q474.6094,334.8906 474.4219,334.7031 Q474.0938,334.3281 473.4844,334.1094 Q472.875,333.8906 472.25,333.8906 Q471.4844,333.8906 470.8516,334.2188 Q470.2188,334.5469 469.7266,335.2969 Q469.2344,336.0469 469.2344,337.0781 L469.2344,338.1719 Q469.2344,339.4063 470.125,340.2266 Q471.0156,341.0469 472.6094,341.0469 Q473.5469,341.0469 474.2031,340.7969 Q474.5938,340.6406 475.0156,340.2031 Q475.2813,339.9375 475.4297,339.8594 Q475.5781,339.7813 475.7813,339.7813 Q476.1094,339.7813 476.3672,340.0391 Q476.625,340.2969 476.625,340.6406 Q476.625,340.9844 476.2813,341.3906 Q475.7813,341.9688 474.9844,342.2969 Q473.9063,342.75 472.6094,342.75 Q471.0938,342.75 469.8906,342.125 Q468.9063,341.625 468.2188,340.5547 Q467.5313,339.4844 467.5313,338.2031 L467.5313,337.0469 Q467.5313,335.7188 468.1484,334.5703 Q468.7656,333.4219 469.8594,332.8047 Q470.9531,332.1875 472.1875,332.1875 Q472.9219,332.1875 473.5703,332.3516 Q474.2188,332.5156 474.7656,332.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="486" y="341.9102">LightOnCommand</text><line style="stroke:#A80036;stroke-width:1.5;" x1="458" x2="590" y1="353" y2="353"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="465" y="361"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="477" y="368.4189">Light* m_light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="458" x2="590" y1="374.8359" y2="374.8359"/><ellipse cx="468" cy="385.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="477" y="390.2549">void execute()</text><ellipse cx="468" cy="399.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="477" y="404.0908">void undo()</text><!--MD5=[1b8424fc98b69c2914dc6275a363a028]
+class LightOffCommand--><rect codeLine="41" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="89.5078" id="LightOffCommand" style="stroke:#A80036;stroke-width:1.5;" width="133" x="288.5" y="321"/><ellipse cx="303.5" cy="337" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M306.2656,332.875 Q306.4219,332.6563 306.6094,332.5469 Q306.7969,332.4375 307.0156,332.4375 Q307.3906,332.4375 307.625,332.6953 Q307.8594,332.9531 307.8594,333.5625 L307.8594,335.0156 Q307.8594,335.625 307.625,335.8906 Q307.3906,336.1563 307.0156,336.1563 Q306.6719,336.1563 306.4688,335.9531 Q306.2656,335.7656 306.1563,335.25 Q306.1094,334.8906 305.9219,334.7031 Q305.5938,334.3281 304.9844,334.1094 Q304.375,333.8906 303.75,333.8906 Q302.9844,333.8906 302.3516,334.2188 Q301.7188,334.5469 301.2266,335.2969 Q300.7344,336.0469 300.7344,337.0781 L300.7344,338.1719 Q300.7344,339.4063 301.625,340.2266 Q302.5156,341.0469 304.1094,341.0469 Q305.0469,341.0469 305.7031,340.7969 Q306.0938,340.6406 306.5156,340.2031 Q306.7813,339.9375 306.9297,339.8594 Q307.0781,339.7813 307.2813,339.7813 Q307.6094,339.7813 307.8672,340.0391 Q308.125,340.2969 308.125,340.6406 Q308.125,340.9844 307.7813,341.3906 Q307.2813,341.9688 306.4844,342.2969 Q305.4063,342.75 304.1094,342.75 Q302.5938,342.75 301.3906,342.125 Q300.4063,341.625 299.7188,340.5547 Q299.0313,339.4844 299.0313,338.2031 L299.0313,337.0469 Q299.0313,335.7188 299.6484,334.5703 Q300.2656,333.4219 301.3594,332.8047 Q302.4531,332.1875 303.6875,332.1875 Q304.4219,332.1875 305.0703,332.3516 Q305.7188,332.5156 306.2656,332.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="317.5" y="341.9102">LightOffCommand</text><line style="stroke:#A80036;stroke-width:1.5;" x1="289.5" x2="420.5" y1="353" y2="353"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="296.5" y="361"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="308.5" y="368.4189">Light* m_light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="289.5" x2="420.5" y1="374.8359" y2="374.8359"/><ellipse cx="299.5" cy="385.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="308.5" y="390.2549">void execute()</text><ellipse cx="299.5" cy="399.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="308.5" y="404.0908">void undo()</text><!--MD5=[84620a252fc3c1ee4157e88d3061b63c]
+class StereoOnCommand--><rect codeLine="47" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="89.5078" id="StereoOnCommand" style="stroke:#A80036;stroke-width:1.5;" width="143" x="288.5" y="478.5"/><ellipse cx="303.5" cy="494.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M306.2656,490.375 Q306.4219,490.1563 306.6094,490.0469 Q306.7969,489.9375 307.0156,489.9375 Q307.3906,489.9375 307.625,490.1953 Q307.8594,490.4531 307.8594,491.0625 L307.8594,492.5156 Q307.8594,493.125 307.625,493.3906 Q307.3906,493.6563 307.0156,493.6563 Q306.6719,493.6563 306.4688,493.4531 Q306.2656,493.2656 306.1563,492.75 Q306.1094,492.3906 305.9219,492.2031 Q305.5938,491.8281 304.9844,491.6094 Q304.375,491.3906 303.75,491.3906 Q302.9844,491.3906 302.3516,491.7188 Q301.7188,492.0469 301.2266,492.7969 Q300.7344,493.5469 300.7344,494.5781 L300.7344,495.6719 Q300.7344,496.9063 301.625,497.7266 Q302.5156,498.5469 304.1094,498.5469 Q305.0469,498.5469 305.7031,498.2969 Q306.0938,498.1406 306.5156,497.7031 Q306.7813,497.4375 306.9297,497.3594 Q307.0781,497.2813 307.2813,497.2813 Q307.6094,497.2813 307.8672,497.5391 Q308.125,497.7969 308.125,498.1406 Q308.125,498.4844 307.7813,498.8906 Q307.2813,499.4688 306.4844,499.7969 Q305.4063,500.25 304.1094,500.25 Q302.5938,500.25 301.3906,499.625 Q300.4063,499.125 299.7188,498.0547 Q299.0313,496.9844 299.0313,495.7031 L299.0313,494.5469 Q299.0313,493.2188 299.6484,492.0703 Q300.2656,490.9219 301.3594,490.3047 Q302.4531,489.6875 303.6875,489.6875 Q304.4219,489.6875 305.0703,489.8516 Q305.7188,490.0156 306.2656,490.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="317.5" y="499.4102">StereoOnCommand</text><line style="stroke:#A80036;stroke-width:1.5;" x1="289.5" x2="430.5" y1="510.5" y2="510.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="296.5" y="518.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="308.5" y="525.9189">Stereo* m_stereo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="289.5" x2="430.5" y1="532.3359" y2="532.3359"/><ellipse cx="299.5" cy="543.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="308.5" y="547.7549">void execute()</text><ellipse cx="299.5" cy="557.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="308.5" y="561.5908">void undo()</text><!--MD5=[e94502afdfe91dc916538874f80c3566]
+class StereoOffCommand--><rect codeLine="52" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="89.5078" id="StereoOffCommand" style="stroke:#A80036;stroke-width:1.5;" width="142" x="467" y="478.5"/><ellipse cx="482" cy="494.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M484.7656,490.375 Q484.9219,490.1563 485.1094,490.0469 Q485.2969,489.9375 485.5156,489.9375 Q485.8906,489.9375 486.125,490.1953 Q486.3594,490.4531 486.3594,491.0625 L486.3594,492.5156 Q486.3594,493.125 486.125,493.3906 Q485.8906,493.6563 485.5156,493.6563 Q485.1719,493.6563 484.9688,493.4531 Q484.7656,493.2656 484.6563,492.75 Q484.6094,492.3906 484.4219,492.2031 Q484.0938,491.8281 483.4844,491.6094 Q482.875,491.3906 482.25,491.3906 Q481.4844,491.3906 480.8516,491.7188 Q480.2188,492.0469 479.7266,492.7969 Q479.2344,493.5469 479.2344,494.5781 L479.2344,495.6719 Q479.2344,496.9063 480.125,497.7266 Q481.0156,498.5469 482.6094,498.5469 Q483.5469,498.5469 484.2031,498.2969 Q484.5938,498.1406 485.0156,497.7031 Q485.2813,497.4375 485.4297,497.3594 Q485.5781,497.2813 485.7813,497.2813 Q486.1094,497.2813 486.3672,497.5391 Q486.625,497.7969 486.625,498.1406 Q486.625,498.4844 486.2813,498.8906 Q485.7813,499.4688 484.9844,499.7969 Q483.9063,500.25 482.6094,500.25 Q481.0938,500.25 479.8906,499.625 Q478.9063,499.125 478.2188,498.0547 Q477.5313,496.9844 477.5313,495.7031 L477.5313,494.5469 Q477.5313,493.2188 478.1484,492.0703 Q478.7656,490.9219 479.8594,490.3047 Q480.9531,489.6875 482.1875,489.6875 Q482.9219,489.6875 483.5703,489.8516 Q484.2188,490.0156 484.7656,490.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="496" y="499.4102">StereoOffCommand</text><line style="stroke:#A80036;stroke-width:1.5;" x1="468" x2="608" y1="510.5" y2="510.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="475" y="518.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="487" y="525.9189">Stereo* m_stereo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="468" x2="608" y1="532.3359" y2="532.3359"/><ellipse cx="478" cy="543.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="487" y="547.7549">void execute()</text><ellipse cx="478" cy="557.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="487" y="561.5908">void undo()</text><!--MD5=[569f59574bf0e5fd31dacd68e6fd9e20]
+class RemoteControl--><rect codeLine="3" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="144.8516" id="RemoteControl" style="stroke:#A80036;stroke-width:1.5;" width="382" x="7" y="93"/><ellipse cx="151.75" cy="109" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M154.5156,104.875 Q154.6719,104.6563 154.8594,104.5469 Q155.0469,104.4375 155.2656,104.4375 Q155.6406,104.4375 155.875,104.6953 Q156.1094,104.9531 156.1094,105.5625 L156.1094,107.0156 Q156.1094,107.625 155.875,107.8906 Q155.6406,108.1563 155.2656,108.1563 Q154.9219,108.1563 154.7188,107.9531 Q154.5156,107.7656 154.4063,107.25 Q154.3594,106.8906 154.1719,106.7031 Q153.8438,106.3281 153.2344,106.1094 Q152.625,105.8906 152,105.8906 Q151.2344,105.8906 150.6016,106.2188 Q149.9688,106.5469 149.4766,107.2969 Q148.9844,108.0469 148.9844,109.0781 L148.9844,110.1719 Q148.9844,111.4063 149.875,112.2266 Q150.7656,113.0469 152.3594,113.0469 Q153.2969,113.0469 153.9531,112.7969 Q154.3438,112.6406 154.7656,112.2031 Q155.0313,111.9375 155.1797,111.8594 Q155.3281,111.7813 155.5313,111.7813 Q155.8594,111.7813 156.1172,112.0391 Q156.375,112.2969 156.375,112.6406 Q156.375,112.9844 156.0313,113.3906 Q155.5313,113.9688 154.7344,114.2969 Q153.6563,114.75 152.3594,114.75 Q150.8438,114.75 149.6406,114.125 Q148.6563,113.625 147.9688,112.5547 Q147.2813,111.4844 147.2813,110.2031 L147.2813,109.0469 Q147.2813,107.7188 147.8984,106.5703 Q148.5156,105.4219 149.6094,104.8047 Q150.7031,104.1875 151.9375,104.1875 Q152.6719,104.1875 153.3203,104.3516 Q153.9688,104.5156 154.5156,104.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="172.25" y="113.9102">RemoteControl</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="388" y1="125" y2="125"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="133"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="27" y="140.4189">Command*[] m_onCommands</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="146.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="27" y="154.2549">Command*[] m_offCommands</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="160.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="27" y="168.0908">Command* m_undoCommand</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="388" y1="174.5078" y2="174.5078"/><ellipse cx="18" cy="185.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="356" x="27" y="189.9268">void setCommand(int slot, Command onCommand, Command offCommand)</text><ellipse cx="18" cy="199.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="27" y="203.7627">void onButtonPressed(int slot)</text><ellipse cx="18" cy="213.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="27" y="217.5986">void OffButtonPressed(int slot)</text><ellipse cx="18" cy="227.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="27" y="231.4346">void undoButtonPressed()</text><path d="M167.5,6 L167.5,32.3516 A0,0 0 0 0 167.5,32.3516 L194,32.3516 L198,92.97 L202,32.3516 L228.5,32.3516 A0,0 0 0 0 228.5,32.3516 L228.5,16 L218.5,6 L167.5,6 A0,0 0 0 0 167.5,6 " fill="#FBFB77" filter="url(#f1fycmaskxmjj8)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M218.5,6 L218.5,16 L228.5,16 L218.5,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="173.5" y="24.4951">Invoker</text><!--MD5=[521817ab83e81da341a3f4b5e91bae41]
+class Command--><rect codeLine="15" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="75.6719" id="Command" style="stroke:#A80036;stroke-width:1.5;" width="146" x="448" y="127.5"/><ellipse cx="487.75" cy="143.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M488.7031,140.1406 L488.7031,146.7969 L490.4219,146.7969 Q491.0313,146.7969 491.2969,147.0313 Q491.5625,147.2656 491.5625,147.6563 Q491.5625,148.0313 491.2969,148.2656 Q491.0313,148.5 490.4219,148.5 L485.2813,148.5 Q484.6719,148.5 484.4063,148.2656 Q484.1406,148.0313 484.1406,147.6406 Q484.1406,147.2656 484.4063,147.0313 Q484.6719,146.7969 485.2813,146.7969 L487,146.7969 L487,140.1406 L485.2813,140.1406 Q484.6719,140.1406 484.4063,139.9063 Q484.1406,139.6719 484.1406,139.2813 Q484.1406,138.9063 484.4063,138.6719 Q484.6719,138.4375 485.2813,138.4375 L490.4219,138.4375 Q491.0313,138.4375 491.2969,138.6719 Q491.5625,138.9063 491.5625,139.2813 Q491.5625,139.6719 491.2969,139.9063 Q491.0313,140.1406 490.4219,140.1406 L488.7031,140.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="507.25" y="148.4102">Command</text><line style="stroke:#A80036;stroke-width:1.5;" x1="449" x2="593" y1="159.5" y2="159.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="449" x2="593" y1="167.5" y2="167.5"/><ellipse cx="459" cy="178.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="468" y="182.9189">virtual void execute() = 0</text><ellipse cx="459" cy="192.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="468" y="196.7549">virtual void undo() = 0</text><!--MD5=[7c1a0278dec21c72584b17e1785fd623]
+class Light--><rect codeLine="21" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="75.6719" id="Light" style="stroke:#A80036;stroke-width:1.5;" width="71" x="159.5" y="328"/><ellipse cx="179.9" cy="344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M182.6656,339.875 Q182.8219,339.6563 183.0094,339.5469 Q183.1969,339.4375 183.4156,339.4375 Q183.7906,339.4375 184.025,339.6953 Q184.2594,339.9531 184.2594,340.5625 L184.2594,342.0156 Q184.2594,342.625 184.025,342.8906 Q183.7906,343.1563 183.4156,343.1563 Q183.0719,343.1563 182.8688,342.9531 Q182.6656,342.7656 182.5563,342.25 Q182.5094,341.8906 182.3219,341.7031 Q181.9938,341.3281 181.3844,341.1094 Q180.775,340.8906 180.15,340.8906 Q179.3844,340.8906 178.7516,341.2188 Q178.1188,341.5469 177.6266,342.2969 Q177.1344,343.0469 177.1344,344.0781 L177.1344,345.1719 Q177.1344,346.4063 178.025,347.2266 Q178.9156,348.0469 180.5094,348.0469 Q181.4469,348.0469 182.1031,347.7969 Q182.4938,347.6406 182.9156,347.2031 Q183.1813,346.9375 183.3297,346.8594 Q183.4781,346.7813 183.6813,346.7813 Q184.0094,346.7813 184.2672,347.0391 Q184.525,347.2969 184.525,347.6406 Q184.525,347.9844 184.1813,348.3906 Q183.6813,348.9688 182.8844,349.2969 Q181.8063,349.75 180.5094,349.75 Q178.9938,349.75 177.7906,349.125 Q176.8063,348.625 176.1188,347.5547 Q175.4313,346.4844 175.4313,345.2031 L175.4313,344.0469 Q175.4313,342.7188 176.0484,341.5703 Q176.6656,340.4219 177.7594,339.8047 Q178.8531,339.1875 180.0875,339.1875 Q180.8219,339.1875 181.4703,339.3516 Q182.1188,339.5156 182.6656,339.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="195.1" y="348.9102">Light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="160.5" x2="229.5" y1="360" y2="360"/><line style="stroke:#A80036;stroke-width:1.5;" x1="160.5" x2="229.5" y1="368" y2="368"/><ellipse cx="170.5" cy="379" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="179.5" y="383.4189">void on()</text><ellipse cx="170.5" cy="392.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="179.5" y="397.2549">void off()</text><!--MD5=[891700c1939f9713fbce2c9592969fe8]
+class Stereo--><rect codeLine="26" fill="#FEFECE" filter="url(#f1fycmaskxmjj8)" height="103.3438" id="Stereo" style="stroke:#A80036;stroke-width:1.5;" width="159" x="71.5" y="472"/><ellipse cx="128.75" cy="488" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M131.5156,483.875 Q131.6719,483.6563 131.8594,483.5469 Q132.0469,483.4375 132.2656,483.4375 Q132.6406,483.4375 132.875,483.6953 Q133.1094,483.9531 133.1094,484.5625 L133.1094,486.0156 Q133.1094,486.625 132.875,486.8906 Q132.6406,487.1563 132.2656,487.1563 Q131.9219,487.1563 131.7188,486.9531 Q131.5156,486.7656 131.4063,486.25 Q131.3594,485.8906 131.1719,485.7031 Q130.8438,485.3281 130.2344,485.1094 Q129.625,484.8906 129,484.8906 Q128.2344,484.8906 127.6016,485.2188 Q126.9688,485.5469 126.4766,486.2969 Q125.9844,487.0469 125.9844,488.0781 L125.9844,489.1719 Q125.9844,490.4063 126.875,491.2266 Q127.7656,492.0469 129.3594,492.0469 Q130.2969,492.0469 130.9531,491.7969 Q131.3438,491.6406 131.7656,491.2031 Q132.0313,490.9375 132.1797,490.8594 Q132.3281,490.7813 132.5313,490.7813 Q132.8594,490.7813 133.1172,491.0391 Q133.375,491.2969 133.375,491.6406 Q133.375,491.9844 133.0313,492.3906 Q132.5313,492.9688 131.7344,493.2969 Q130.6563,493.75 129.3594,493.75 Q127.8438,493.75 126.6406,493.125 Q125.6563,492.625 124.9688,491.5547 Q124.2813,490.4844 124.2813,489.2031 L124.2813,488.0469 Q124.2813,486.7188 124.8984,485.5703 Q125.5156,484.4219 126.6094,483.8047 Q127.7031,483.1875 128.9375,483.1875 Q129.6719,483.1875 130.3203,483.3516 Q130.9688,483.5156 131.5156,483.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="149.25" y="492.9102">Stereo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="72.5" x2="229.5" y1="504" y2="504"/><line style="stroke:#A80036;stroke-width:1.5;" x1="72.5" x2="229.5" y1="512" y2="512"/><ellipse cx="82.5" cy="523" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="91.5" y="527.4189">void on();</text><ellipse cx="82.5" cy="536.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="91.5" y="541.2549">void playCD();</text><ellipse cx="82.5" cy="550.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="91.5" y="555.0908">void setVolume(int volume);</text><ellipse cx="82.5" cy="564.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="91.5" y="568.9268">void off();</text><!--MD5=[bdccb850b58140e0609e89ac5e5dad73]
+link RemoteControl to Command--><path codeLine="19" d="M389.16,165.5 C407.92,165.5 426.13,165.5 442.73,165.5 " fill="none" id="RemoteControl-to-Command" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="447.83,165.5,438.83,161.5,442.83,165.5,438.83,169.5,447.83,165.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="408" y="158.9951">has</text><!--MD5=[86c27f5620ea5f4305a1ed73ed7018d8]
+reverse link Command to LightOnCommand--><path d="M521.87,223.97 C522.34,254.86 522.9,292.34 523.33,320.9 " fill="none" id="Command-backto-LightOnCommand" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="514.87,223.94,521.56,203.84,528.87,223.73,514.87,223.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[002bb283488b8a3f0888e4c6ec833fe8]
+reverse link Command to LightOffCommand--><path d="M476.62,219.56 C450.14,251.23 416.91,290.97 391.88,320.9 " fill="none" id="Command-backto-LightOffCommand" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="471.58,214.69,489.78,203.84,482.32,223.67,471.58,214.69" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b3d49fec821b471eed4bc144afc5bc56]
+reverse link Command to StereoOnCommand--><path d="M574.53,218.98 C588.49,236.04 601.66,256.02 609,277 C628.65,333.22 642.74,361.92 609,411 C566.12,473.37 518.52,439.84 450,472 C444,474.82 437.85,477.87 431.73,481.04 " fill="none" id="Command-backto-StereoOnCommand" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="569.24,223.57,561.36,203.9,579.79,214.36,569.24,223.57" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5ee0b0e72e938793dcd2d2f9149114e3]
+reverse link Command to StereoOffCommand--><path d="M611.65,208.14 C634.86,223.48 656.94,243.29 670,268 C706.15,336.36 707.86,374.57 670,442 C656.6,465.87 632.92,483.5 609.28,496.07 " fill="none" id="Command-backto-StereoOffCommand" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="607.66,213.91,594.23,197.52,614.95,201.96,607.66,213.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9b532027b4ede24fc18c97ef2df6919e]
+link Command to Light--><!--MD5=[890b16955d187910732732598296c640]
+link Light to RemoteControl--><!--MD5=[7854b09e629d9ca14a6ca9e0d512c362]
+reverse link LightOffCommand to StereoOnCommand--><!--MD5=[2280f804c5cabe15f60c7c0c46ae51ae]
+link StereoOnCommand to StereoOffCommand--><!--MD5=[92a909aa30c442ecb25a34c661be9873]
+link LightOnCommand to LightOffCommand--><!--MD5=[342b43bf336ff04488f6bd0d3f9d7800]
+link LightOffCommand to Light--><path codeLine="74" d="M288.37,366 C270.53,366 251.79,366 235.82,366 " fill="none" id="LightOffCommand-to-Light" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="230.51,366,239.51,370,235.51,366,239.51,362,230.51,366" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="249" y="359.4951">has</text><!--MD5=[069b357fb68e854f396c8b444305fb79]
+link StereoOnCommand to Stereo--><path codeLine="75" d="M288.49,523.5 C271.6,523.5 253.42,523.5 235.99,523.5 " fill="none" id="StereoOnCommand-to-Stereo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="230.61,523.5,239.61,527.5,235.61,523.5,239.61,519.5,230.61,523.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="249" y="516.9951">has</text><!--MD5=[0fb1d47b8ccf06a623e65c120900cd6a]
+reverse link Light to Stereo--><!--MD5=[bc1b806355286d4a8e45341557f646d0]
+@startuml Command Pattern
+
+
+class RemoteControl{
+    - Command*[] m_onCommands
+    - Command*[] m_offCommands
+    - Command* m_undoCommand 
+    + void setCommand(int slot, Command onCommand, Command offCommand)
+    + void onButtonPressed(int slot)
+    + void OffButtonPressed(int slot)
+    + void undoButtonPressed()
+}
+note top of RemoteControl: Invoker
+
+
+interface Command{
+    + virtual void execute() = 0
+    + virtual void undo() = 0
+}
+RemoteControl -> Command: has
+
+class Light{
+    + void on()
+    + void off()
+}
+
+class Stereo{
+    + void on();
+    + void playCD();
+    + void setVolume(int volume);
+    + void off();
+}
+
+package "concrete command"{
+' concrete command
+class LightOnCommand implements Command{
+    - Light* m_light
+    + void execute()
+    + void undo()
+}
+
+class LightOffCommand implements Command{
+    - Light* m_light
+    + void execute()
+    + void undo()
+}
+
+class StereoOnCommand implements Command{
+    - Stereo* m_stereo
+    + void execute()
+    + void undo()
+}
+class StereoOffCommand implements Command{
+    - Stereo* m_stereo
+    + void execute()
+    + void undo()
+}
+}
+' class NoCommand implements Command{
+'     + void execute()    // do nothing
+'     + void undo()       // do nothing
+' }
+
+' note left of LightOffCommand::execute()
+'     invoke receiver.action(); eg.on(),off()    
+' end note
+
+Command -[hidden] Light
+Light -[hidden]-> RemoteControl
+
+LightOffCommand<-[hidden]-StereoOnCommand
+StereoOnCommand -[hidden] StereoOffCommand
+LightOnCommand -[hidden] LightOffCommand
+
+LightOffCommand -> Light: has
+StereoOnCommand -> Stereo: has
+Light <-[hidden] Stereo
+
+
+@enduml
+
+@startuml Command Pattern
+
+
+class RemoteControl{
+    - Command*[] m_onCommands
+    - Command*[] m_offCommands
+    - Command* m_undoCommand 
+    + void setCommand(int slot, Command onCommand, Command offCommand)
+    + void onButtonPressed(int slot)
+    + void OffButtonPressed(int slot)
+    + void undoButtonPressed()
+}
+note top of RemoteControl: Invoker
+
+
+interface Command{
+    + virtual void execute() = 0
+    + virtual void undo() = 0
+}
+RemoteControl -> Command: has
+
+class Light{
+    + void on()
+    + void off()
+}
+
+class Stereo{
+    + void on();
+    + void playCD();
+    + void setVolume(int volume);
+    + void off();
+}
+
+package "concrete command"{
+class LightOnCommand implements Command{
+    - Light* m_light
+    + void execute()
+    + void undo()
+}
+
+class LightOffCommand implements Command{
+    - Light* m_light
+    + void execute()
+    + void undo()
+}
+
+class StereoOnCommand implements Command{
+    - Stereo* m_stereo
+    + void execute()
+    + void undo()
+}
+class StereoOffCommand implements Command{
+    - Stereo* m_stereo
+    + void execute()
+    + void undo()
+}
+}
+
+
+Command -[hidden] Light
+Light -[hidden]-> RemoteControl
+
+LightOffCommand<-[hidden]-StereoOnCommand
+StereoOnCommand -[hidden] StereoOffCommand
+LightOnCommand -[hidden] LightOffCommand
+
+LightOffCommand -> Light: has
+StereoOnCommand -> Stereo: has
+Light <-[hidden] Stereo
+
+
+@enduml
+
+PlantUML version 1.2021.12(Wed Oct 06 00:01:58 CST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
