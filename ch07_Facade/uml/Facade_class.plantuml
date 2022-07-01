@@ -21,5 +21,4 @@ package "sub system, including lots of interface"{
     A -> Facade
     B -> Facade
 }
-' https://github.com/jwbecalm/Head-First-Design-Patterns-CPP/tree/master/Facade
 @enduml

@@ -10,7 +10,7 @@ using namespace  std;
  * a part of the Subsystem.
  */
 class Subsystem1 {
- public:
+  public:
   std::string Operation1() const {
     return "Subsystem1: Ready!\n";
   }
@@ -23,7 +23,7 @@ class Subsystem1 {
  * Some facades can work with multiple subsystems at the same time.
  */
 class Subsystem2 {
- public:
+  public:
   std::string Operation1() const {
     return "Subsystem2: Get ready!\n";
   }
