@@ -8,7 +8,7 @@
 
 
 
-# Class diagram for Singleton Factory pattern
+# Class diagram for Command Factory pattern
 ![Alt text](./uml/Command%20Pattern.svg)
 
 # 参考资料

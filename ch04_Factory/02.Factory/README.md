@@ -16,7 +16,7 @@ orderPizza()方法依赖工厂创建具体的类，并创造出具体的pizza。
 简单工厂，只不过是把对象的创建封装了起来，但不具备工厂所具备的弹性。
 
 
-# Class diagram for Simple Factory pattern
+# Class diagram for Factory pattern
 ![Alt text](./uml/Factory.svg)
 
 # 参考资料

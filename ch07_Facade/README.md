@@ -5,7 +5,7 @@
 
 
 
-# Class diagram for Adapter pattern
+# Class diagram for Facade pattern
 ![Alt text](./uml/Facade%20Pattern.svg)
 
 # 参考资料
