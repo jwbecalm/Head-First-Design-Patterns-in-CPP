@@ -7,13 +7,16 @@ using namespace  std;
 void CaffeineBeverage::prepareRecipe(){
     // setp1, general
     boilWater();
+
     // step2, specific
     brew();
+    
     // step3, general
     pourInCup();
-    // step4, optional；可选的步骤，可以设计为钩子，让子类选择是否执行该步骤。
-    // 这里很cool，由子类的实现来决定是否执行父类的某个步骤/方法
+    
     if(CustomerWantCondiments()){
+        // step4, optional；可选的步骤，可以设计为钩子，让子类选择是否执行该步骤。
+        // 这里很cool，由子类的实现来决定是否执行父类的某个步骤/方法
         addCondiments();    // 接口方法，父类无实现，子类必须覆盖并提供自己的实现
     }
 }

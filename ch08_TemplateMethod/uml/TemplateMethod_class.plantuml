@@ -3,8 +3,8 @@ abstract class CaffeineBeverage{
     + void prepareRecipe() final  // template method
     + void boilWater()
     + void pourInCup()
-    + <color:blue>virtual void brew()   
-    + <color:blue>virtual void addCondiments()  
+    + <color:blue>virtual void brew() = 0  
+    + <color:blue>virtual void addCondiments() = 0
     + <color:blue>bool CustomerWantCondiments()   // hook method
 }
 ' brew: brew sth, to make a hot drink of tea or coffee
