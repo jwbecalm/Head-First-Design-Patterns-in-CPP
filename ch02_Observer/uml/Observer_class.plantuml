@@ -7,7 +7,7 @@ package "Observalble and Observer Interface" {
     }
     note left of Observalble::notifyObservers
     for observer in observers,
-    call observer.update()
+        call observer.update()
     end note
 
     Interface Observer{
@@ -78,8 +78,8 @@ Interface DisplayElement{
 
 
 Observalble -->"0..*" Observer
-CurrentDisplay --> WeatherData
-StatDisplay --> WeatherData
+CurrentDisplay --> WeatherData: use a 
+StatDisplay --> WeatherData: use a
 'ForecastDisplay --> WeatherData
 'ThirdPartyDisplay --> WeatherData
 
